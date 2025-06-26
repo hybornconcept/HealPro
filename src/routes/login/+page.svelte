@@ -2,16 +2,11 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import { Input } from '$lib/components/ui/input/index.js';
 
-		import {
-		Mail,
-		Eye,
-		EyeOff,
-	
-	} from '@lucide/svelte';
+	import { Mail, Eye, EyeOff } from '@lucide/svelte';
 
-	let email = '';
-	let password = '';
-	let showPassword = false;
+	let email = $state('');
+	let password = $state('');
+	let showPassword = $state(false);
 
 	function togglePasswordVisibility() {
 		showPassword = !showPassword;
@@ -34,7 +29,7 @@
 					To connect to your account, please enter your email address and password.
 				</p>
 
-				<form class="space-y-4" on:submit|preventDefault>
+				<form class="space-y-4" onsubmit={(e) => e.preventDefault()}>
 					<!-- Email input with mail icon -->
 					<div class="relative">
 						<Input
@@ -60,7 +55,7 @@
 						<button
 							type="button"
 							class="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 hover:text-gray-600"
-							on:click={togglePasswordVisibility}
+							onclick={togglePasswordVisibility}
 							tabindex="-1"
 						>
 							{#if showPassword}

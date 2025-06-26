@@ -1,8 +1,7 @@
 <script lang="ts">
 	import { Input } from '$lib/components/ui/input/index.js';
 	import * as Select from '$lib/components/ui/select/index.js';
-	import Clock from 'lucide-svelte/icons/clock';
-	import ArrowRight from 'lucide-svelte/icons/arrow-right';
+	import { Clock, ArrowRight } from '@lucide/svelte';
 
 	let {
 		startHour = $bindable('1'),

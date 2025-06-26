@@ -130,7 +130,7 @@
 			</p>
 
 			<a
-				href="javascript:void(0)"
+				href="/"
 				class="mt-8 flex w-fit items-center rounded-full bg-blue-600 px-6 py-3 text-white hover:bg-blue-700"
 			>
 				<span>View More</span>

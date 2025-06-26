@@ -21,7 +21,7 @@
 	// Create tweened stores for each value
 	const animatedStores = numericValues.map((val) =>
 		tweened(0, {
-			duration: 2000,
+			duration: 5000,
 			easing: cubicOut
 		})
 	);

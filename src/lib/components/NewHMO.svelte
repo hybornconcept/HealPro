@@ -92,7 +92,12 @@
 	</h1>
 	<p class="mb-8 text-gray-500">Join our network of healthcare insurers</p>
 
-	<form on:submit|preventDefault={handleSubmit}>
+	<form
+		onsubmit={(e) => {
+			e.preventDefault();
+			handleSubmit();
+		}}
+	>
 		<!-- Company Information -->
 		<h2 class="mt-4 mb-4 text-xl font-semibold text-gray-900">Company Information</h2>
 		<div class="mb-6 grid grid-cols-1 gap-4 md:grid-cols-2">

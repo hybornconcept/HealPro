@@ -83,7 +83,12 @@
 	</h1>
 	<p class="mb-8 text-gray-500">Join our network of healthcare providers</p>
 
-	<form on:submit|preventDefault={handleSubmit}>
+	<form
+		onsubmit={(e) => {
+			e.preventDefault();
+			handleSubmit();
+		}}
+	>
 		<!-- Facility Information -->
 		<h2 class="mt-4 mb-4 text-xl font-semibold text-gray-900">Facility Information</h2>
 		<div class="mb-6 grid grid-cols-1 gap-4 md:grid-cols-2">

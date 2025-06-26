@@ -5,7 +5,7 @@
 	import * as Card from '$lib/components/ui/card/index.js';
 	import * as Select from '$lib/components/ui/select/index.js';
 	import { Textarea } from '$lib/components/ui/textarea/index.js';
-	import CalendarIcon from 'lucide-svelte/icons/calendar';
+	import { Calendar as CalendarIcon } from '@lucide/svelte';
 	import { DateFormatter, type DateValue, getLocalTimeZone, today } from '@internationalized/date';
 	import { cn } from '$lib/utils.js';
 	import { buttonVariants } from '$lib/components/ui/button/index.js';
@@ -18,11 +18,11 @@
 	});
 
 	const doctors = [
-		{ value: 'facility-1', label: 'Facility 1' },
-		{ value: 'facility-2', label: 'Facility 2' },
-		{ value: 'facility-3', label: 'Facility 3' },
-		{ value: 'facility-4', label: 'Facility 4' },
-		{ value: 'facility-5', label: 'Facility 5' }
+		{ value: 'hospital-1', label: 'Hospital 1' },
+		{ value: 'hospital-2', label: 'Hospital 2' },
+		{ value: 'hospital-3', label: 'Hospital 3' },
+		{ value: 'hospital-4', label: 'Hospital 4' },
+		{ value: 'hospital-5', label: 'Hospital 5' }
 	];
 
 	let selectedHospital = $state('');
@@ -132,7 +132,7 @@
 				</div>
 				<Button
 					type="submit"
-					class="w-full bg-blue-500 py-3 text-base font-semibold hover:bg-blue-600"
+					class="w-full bg-blue-500 py-4 text-base font-semibold hover:bg-blue-600"
 				>
 					Book Appointment
 				</Button>

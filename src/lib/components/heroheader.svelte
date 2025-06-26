@@ -3,7 +3,6 @@
 
 	import { Activity, ArrowRight, ArrowDown, Landmark, Hospital, User } from '@lucide/svelte';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu/index.js';
-	import { Button } from '$lib/components/ui/button/index.js';
 
 	let position = $state('bottom');
 	// Use Svelte 5 runes for state management
@@ -81,14 +80,11 @@
 			</div>
 			<div>
 				<DropdownMenu.Root>
-					<DropdownMenu.Trigger>
-						<Button
-							variant="outline"
-							class="hidden items-center justify-center rounded-lg border border-blue-600 px-4 py-2 text-blue-500 md:flex"
-						>
-							Sign Up
-							<ArrowDown class="ml-1 h-4 w-4" />
-						</Button>
+					<DropdownMenu.Trigger
+						class="hidden items-center justify-center rounded-lg border border-blue-600 px-4 py-2 text-blue-500 transition-colors hover:bg-blue-50 md:flex"
+					>
+						Sign Up
+						<ArrowDown class="ml-1 h-4 w-4" />
 					</DropdownMenu.Trigger>
 					<DropdownMenu.Content class="z-50 w-48">
 						<DropdownMenu.Group>

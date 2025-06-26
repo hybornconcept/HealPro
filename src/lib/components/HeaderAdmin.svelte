@@ -1,20 +1,22 @@
 <script lang="ts">
-	import CircleUser from 'lucide-svelte/icons/circle-user';
-	import ChartLine from 'lucide-svelte/icons/chart-line';
-	import Package from 'lucide-svelte/icons/package';
-	import House from 'lucide-svelte/icons/house';
-	import ShoppingCart from 'lucide-svelte/icons/shopping-cart';
-	import Bell from 'lucide-svelte/icons/bell';
-	import Menu from 'lucide-svelte/icons/menu';
-	import Package2 from 'lucide-svelte/icons/package-2';
-	import ChevronLeft from 'lucide-svelte/icons/chevron-left';
+	import {
+		CircleUser,
+		ChartLine,
+		Package,
+		House,
+		ShoppingCart,
+		Bell,
+		Menu,
+		Package2,
+		ChevronLeft,
+		Search
+	} from '@lucide/svelte';
 	import { Input } from '$lib/components/ui/input/index.js';
 	import * as Card from '$lib/components/ui/card/index.js';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu/index.js';
 	import * as Sheet from '$lib/components/ui/sheet/index.js';
 	import { buttonVariants, Button } from '$lib/components/ui/button/index.js';
 	import { Badge } from '$lib/components/ui/badge/index.js';
-	import { Search } from 'lucide-svelte';
 
 	// Get the sidebar context
 	// const sidebar = useSidebar();

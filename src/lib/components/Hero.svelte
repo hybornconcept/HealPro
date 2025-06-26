@@ -171,9 +171,13 @@
 					Connecting patients with medical professionals seamlessly. Browse, book, and receive care
 					on your terms
 				</p>
-				<Button class="w-1/2 rounded-full bg-blue-600 p-6 text-base hover:bg-blue-700"
-					>Book Appointment</Button
+
+				<Button
+					href="/schedule"
+					class="w-1/2 rounded-full bg-blue-600 p-6 text-base hover:bg-blue-700"
 				>
+					Book Appointment
+				</Button>
 			</div>
 		</div>
 	</div>

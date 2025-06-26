@@ -90,7 +90,7 @@
 					class={`rounded-full px-4 py-2 transition ${
 						registrationType === 'user' ? 'bg-blue-600 text-white' : 'text-gray-800'
 					}`}
-					on:click={() => changeRegistrationType('user')}
+					onclick={() => changeRegistrationType('user')}
 				>
 					Patient
 				</button>
@@ -98,7 +98,7 @@
 					class={`rounded-full px-4 py-2 transition ${
 						registrationType === 'hospital' ? 'bg-blue-600 text-white' : 'text-gray-800'
 					}`}
-					on:click={() => changeRegistrationType('hospital')}
+					onclick={() => changeRegistrationType('hospital')}
 				>
 					Hospital
 				</button>
@@ -106,7 +106,7 @@
 					class={`rounded-full px-4 py-2 transition ${
 						registrationType === 'hmo' ? 'bg-blue-600 text-white' : 'text-gray-800'
 					}`}
-					on:click={() => changeRegistrationType('hmo')}
+					onclick={() => changeRegistrationType('hmo')}
 				>
 					HMO
 				</button>

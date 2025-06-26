@@ -20,21 +20,21 @@
 		{
 			title: 'Quick Links',
 			links: [
-				{ text: 'About Us', href: 'javascript:void(0)' },
-				{ text: 'Our Services', href: 'javascript:void(0)' },
-				{ text: 'Doctors', href: 'javascript:void(0)' },
-				{ text: 'Appointments', href: 'javascript:void(0)' },
-				{ text: 'Contact', href: 'javascript:void(0)' }
+				{ text: 'About Us', href: '/' },
+				{ text: 'Our Services', href: '/' },
+				{ text: 'Doctors', href: '/' },
+				{ text: 'Appointments', href: '/' },
+				{ text: 'Contact', href: '/' }
 			]
 		},
 		{
 			title: 'Our Services',
 			links: [
-				{ text: 'Primary Care', href: 'javascript:void(0)' },
-				{ text: 'Specialty Care', href: 'javascript:void(0)' },
-				{ text: 'Urgent Care', href: 'javascript:void(0)' },
-				{ text: 'Telehealth', href: 'javascript:void(0)' },
-				{ text: 'Preventive Care', href: 'javascript:void(0)' }
+				{ text: 'Primary Care', href: '/' },
+				{ text: 'Specialty Care', href: '/' },
+				{ text: 'Urgent Care', href: '/' },
+				{ text: 'Telehealth', href: '/' },
+				{ text: 'Preventive Care', href: '/' }
 			]
 		},
 		{
@@ -63,7 +63,7 @@
 
 			<div class="flex gap-4">
 				{#each socialLinks as { icon: Icon, label }}
-					<a href="javascript:void(0)" aria-label={label}>
+					<a href="/" aria-label={label}>
 						<Icon class="h-5 w-5 text-gray-400 hover:text-blue-500" />
 					</a>
 				{/each}

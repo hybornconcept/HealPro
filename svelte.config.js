@@ -18,11 +18,7 @@ const config = {
 		adapter: adapter({
 			runtime: 'edge',
 			regions: 'auto',
-			precompress: true,
-			// Enable ISR for better performance
-			isr: {
-				expiration: 60
-			}
+			precompress: true
 		}),
 
 		// Security and performance
@@ -46,9 +42,9 @@ const config = {
 
 		// Enhanced alias configuration
 		alias: {
-			'$components': 'src/lib/components',
-			'$utils': 'src/lib/utils',
-			'$types': 'src/lib/types'
+			$components: 'src/lib/components',
+			$utils: 'src/lib/utils',
+			$types: 'src/lib/types'
 		}
 	},
 	// Enable Svelte 5 features with compatibility
@@ -70,4 +66,3 @@ const config = {
 };
 
 export default config;
-
