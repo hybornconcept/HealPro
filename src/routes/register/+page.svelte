@@ -1,12 +1,31 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
-	import NewUser from '$lib/components/NewUser.svelte';
-	import NewFacility from '$lib/components/NewFacility.svelte';
-	import NewHMO from '$lib/components/NewHMO.svelte';
 
 	// Registration type state
 	let registrationType = $state('user'); // Default to user registration
+
+	// Component loading state
+	let componentPromise = $state<Promise<any> | null>(null);
+
+	// Function to load component dynamically
+	function loadComponent(type: string) {
+		switch (type) {
+			case 'user':
+				return import('$lib/components/NewUser.svelte');
+			case 'hospital':
+				return import('$lib/components/NewFacility.svelte');
+			case 'hmo':
+				return import('$lib/components/NewHMO.svelte');
+			default:
+				return import('$lib/components/NewUser.svelte');
+		}
+	}
+
+	// Update component when registration type changes
+	$effect(() => {
+		componentPromise = loadComponent(registrationType);
+	});
 
 	// Parse the URL parameter on mount
 	onMount(() => {
@@ -14,6 +33,8 @@
 		if (type && ['user', 'hospital', 'hmo'].includes(type)) {
 			registrationType = type;
 		}
+		// Load initial component
+		componentPromise = loadComponent(registrationType);
 	});
 
 	// Update URL when registration type changes
@@ -114,12 +135,30 @@
 		</div>
 
 		<!-- Right: Registration Form (3/5 width) -->
-		{#if registrationType === 'user'}
-			<NewUser />
-		{:else if registrationType === 'hospital'}
-			<NewFacility />
-		{:else if registrationType === 'hmo'}
-			<NewHMO />
+		{#if componentPromise}
+			{#await componentPromise}
+				<!-- Loading state -->
+				<div class="flex w-3/5 items-center justify-center">
+					<div class="text-center">
+						<div
+							class="mx-auto h-8 w-8 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"
+						></div>
+						<p class="mt-2 text-gray-600">Loading...</p>
+					</div>
+				</div>
+			{:then module}
+				<!-- Render the loaded component -->
+				{@const Component = module.default}
+				<Component />
+			{:catch error}
+				<!-- Error state -->
+				<div class="flex w-3/5 items-center justify-center">
+					<div class="text-center text-red-600">
+						<p>Error loading component</p>
+						<p class="text-sm">{error.message}</p>
+					</div>
+				</div>
+			{/await}
 		{/if}
 	</div>
 </div>
