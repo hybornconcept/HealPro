@@ -250,7 +250,12 @@
 							>+ Add Appointment</button
 						>
 					</div>
-
+					<Card.Header class="flex h-[35px] min-h-0 items-center justify-between border-b pb-1.5">
+						<h2 class="text-lg font-semibold">Medications</h2>
+						<button class="text-sm font-semibold text-blue-600 hover:underline"
+							>+ Add Appointment</button
+						>
+					</Card.Header>
 					<!-- Tabs -->
 					<div class="nunito flex border-b border-gray-200 text-sm text-gray-500">
 						{#each tabs as tab}
