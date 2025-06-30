@@ -6,7 +6,7 @@ const CACHE = `cache-${version}`;
 // Assets to cache on install
 const ASSETS = [
 	...build, // the app itself
-	...files  // everything in static
+	...files // everything in static
 ];
 
 // Install event - cache assets
@@ -41,6 +41,11 @@ self.addEventListener('fetch', (event) => {
 		const url = new URL(event.request.url);
 		const cache = await caches.open(CACHE);
 
+		// Skip caching for unsupported URL schemes
+		if (url.protocol === 'chrome-extension:' || url.protocol === 'moz-extension:') {
+			return fetch(event.request);
+		}
+
 		// `build`/`files` can always be served from the cache
 		if (ASSETS.includes(url.pathname)) {
 			const response = await cache.match(url.pathname);
@@ -61,7 +66,10 @@ self.addEventListener('fetch', (event) => {
 			}
 
 			if (response.status === 200) {
-				cache.put(event.request, response.clone());
+				// Only cache if it's a supported scheme
+				if (url.protocol === 'http:' || url.protocol === 'https:') {
+					cache.put(event.request, response.clone());
+				}
 			}
 
 			return response;
@@ -107,16 +115,12 @@ self.addEventListener('push', (event) => {
 				primaryKey: 1
 			}
 		};
-		event.waitUntil(
-			self.registration.showNotification(data.title, options)
-		);
+		event.waitUntil(self.registration.showNotification(data.title, options));
 	}
 });
 
 // Notification click handler
 self.addEventListener('notificationclick', (event) => {
 	event.notification.close();
-	event.waitUntil(
-		clients.openWindow('/')
-	);
+	event.waitUntil(clients.openWindow('/'));
 });

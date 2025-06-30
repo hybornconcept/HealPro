@@ -3,10 +3,7 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-	plugins: [
-		tailwindcss(),
-		sveltekit()
-	],
+	plugins: [tailwindcss(), sveltekit()],
 	// Enhanced build optimizations
 	build: {
 		target: 'esnext',
@@ -69,7 +66,7 @@ export default defineConfig({
 			'tailwind-merge',
 			'@internationalized/date'
 		],
-		exclude: ['@sveltejs/kit'],
+		exclude: ['@sveltejs/kit', 'nprogress'],
 		// Force optimization
 		force: false
 	},
@@ -82,4 +79,3 @@ export default defineConfig({
 		format: 'es'
 	}
 });
-

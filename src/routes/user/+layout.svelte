@@ -1,128 +1,81 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-
-	import {
-		CalendarDays,
-		ClipboardList,
-		CreditCard,
-		FileText,
-		Home,
-		Image,
-		Inbox,
-		Layers,
-		ListChecks,
-		Users
-	} from '@lucide/svelte';
+	import { Home, User, Users, Building2, Pill, FileText, Activity } from '@lucide/svelte';
 	import * as Sidebar from '$lib/components/ui/sidebar/index.js';
 	import Header from '$lib/components/header.svelte';
+	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
 
-	// Menu items for DoctorDude sidebar
 	const items = [
-		{
-			title: 'Home',
-			url: 'home',
-			icon: Home
-		},
-		{
-			title: "Today's Visits",
-			url: 'visits',
-			icon: FileText
-		},
-		{
-			title: 'Schedule',
-			url: 'schedule',
-			icon: CalendarDays
-		},
-		{
-			title: 'Patients',
-			url: 'patients',
-			icon: Users
-		},
-		{
-			title: 'To-Dos',
-			url: 'todos',
-			icon: ListChecks
-		},
-		{
-			title: 'Fax Inbox',
-			url: 'fax',
-			icon: Inbox,
-			badge: '22'
-		},
-		{
-			title: 'Staff',
-			url: 'staff',
-			icon: Users
-		},
-
-		{
-			title: 'Imaging',
-			url: 'imaging',
-			icon: Image,
-			dot: true
-		},
-		{
-			title: 'Billing',
-			url: 'billing',
-			icon: CreditCard
-		},
-		{
-			title: 'Memberships',
-			url: 'memberships',
-			icon: Layers
-		},
-		{
-			title: 'CME',
-			url: 'cme',
-			icon: ClipboardList
-		}
+		{ title: 'Home', url: '', icon: Home },
+		{ title: 'Claims', url: 'claims', icon: User },
+		{ title: 'Reports', url: 'reports', icon: FileText },
+		{ title: 'Policies2', url: 'policies2', icon: Users },
+		{ title: 'Policies', url: 'policies', icon: Users }
 	];
 
 	let { children } = $props();
+
+	const currentPath = $derived(() => $page.url.pathname);
+
+	function isActive(url: string) {
+		if (url === '' && (currentPath() === '/user' || currentPath() === '/user/')) {
+			return true;
+		}
+		if (url !== '' && (currentPath() === `/user/${url}` || currentPath() === `/user/${url}/`)) {
+			return true;
+		}
+		return false;
+	}
+
+	// Remove the problematic effect that was redirecting all routes to /user
+	// This was preventing navigation to subpages like /user/reports
 </script>
 
 <Sidebar.Provider>
-	<Sidebar.Root collapsible="icon">
+	<Sidebar.Root collapsible="icon" class="header-poppins">
+		<Sidebar.Header>
+			<a href="/" class="mx-auto flex w-[90%] items-center text-2xl">
+				<Activity class="h-5 w-5 text-blue-500" />
+				<span class="border-blue-300 p-2 font-bold">
+					Heal<span class="text-blue-500">Pro.</span>
+				</span>
+			</a>
+		</Sidebar.Header>
+
 		<Sidebar.Content>
-			<div class="flex items-center px-4 py-2">
-				<span class="text-lg font-semibold">🩺 DoctorDude</span>
+			<div class="flex flex-col px-4 py-6">
+				<Sidebar.Menu>
+					{#each items as item (item.title)}
+						<Sidebar.MenuItem>
+							<Sidebar.MenuButton>
+								{#snippet child({ props })}
+									<a
+										href={item.url === '' ? '/user' : '/user/' + item.url}
+										{...props}
+										class={`flex items-center gap-3 rounded-full px-4 py-2 transition-colors
+                                            ${isActive(item.url) ? 'bg-[#2b7fff] font-medium text-white' : 'text-gray-700 hover:bg-gray-100'}
+                                        `}
+									>
+										<div class="flex w-5 items-center justify-center">
+											<item.icon class="h-5 w-5" />
+										</div>
+										<span>{item.title}</span>
+										{#if item.badge}
+											<span
+												class="ml-auto rounded-full bg-[#2b7fff] px-2 py-0.5 text-xs font-medium text-white"
+												>{item.badge}</span
+											>
+										{/if}
+									</a>
+								{/snippet}
+							</Sidebar.MenuButton>
+						</Sidebar.MenuItem>
+					{/each}
+				</Sidebar.Menu>
 			</div>
-			<Sidebar.Group>
-				<Sidebar.GroupContent>
-					<Sidebar.Menu>
-						{#each items as item (item.title)}
-							<Sidebar.MenuItem>
-								<Sidebar.MenuButton>
-									{#snippet child({ props })}
-										<a
-											href={'/user/' + item.url}
-											{...props}
-											class="flex items-center gap-3 px-3 py-2"
-										>
-											<div class="flex w-5 items-center justify-center">
-												<item.icon class="h-5 w-5" />
-											</div>
-											<span>{item.title}</span>
-											{#if item.badge}
-												<span
-													class="ml-auto rounded-full bg-red-500 px-1.5 py-0.5 text-xs text-white"
-													>{item.badge}</span
-												>
-											{/if}
-											{#if item.dot}
-												<span class="ml-auto h-2 w-2 rounded-full bg-red-500"></span>
-											{/if}
-										</a>
-									{/snippet}
-								</Sidebar.MenuButton>
-							</Sidebar.MenuItem>
-						{/each}
-					</Sidebar.Menu>
-				</Sidebar.GroupContent>
-			</Sidebar.Group>
 		</Sidebar.Content>
 	</Sidebar.Root>
-	<main class="flex-1">
+	<main class="header-poppins flex-1">
 		<Header />
 		<div class="bg-[#f8f9fd] p-4">
 			{@render children?.()}

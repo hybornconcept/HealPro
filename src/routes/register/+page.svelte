@@ -50,6 +50,8 @@
 	}
 </script>
 
+<!-- if you are backing me who is fronting you -->
+<!-- cleaner than a baby ad baptism  -->
 <div class="flex min-h-screen items-center justify-center bg-[#f1f5f9] p-4">
 	<div class="flex w-full max-w-5xl overflow-hidden rounded-2xl bg-white shadow-md">
 		<!-- Left: Illustration (2/5 width) -->
