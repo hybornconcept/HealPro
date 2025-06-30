@@ -1,15 +1,47 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button/index.js';
 	import { Input } from '$lib/components/ui/input/index.js';
+	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
+	import { browser } from '$app/environment';
 
-	import { Mail, Eye, EyeOff } from '@lucide/svelte';
+	// Lazy load icons for better performance
+	let Mail: any = $state(null);
+	let Eye: any = $state(null);
+	let EyeOff: any = $state(null);
 
+	// Form state using Svelte 5 runes
 	let email = $state('');
 	let password = $state('');
 	let showPassword = $state(false);
+	let isLoading = $state(false);
+	let isSubmitting = $state(false);
+
+	// Load icons after component mounts
+	onMount(async () => {
+		if (!browser) return;
+
+		try {
+			const [mailModule, eyeModule, eyeOffModule] = await Promise.all([
+				import('@lucide/svelte/icons/mail'),
+				import('@lucide/svelte/icons/eye'),
+				import('@lucide/svelte/icons/eye-off')
+			]);
+
+			Mail = mailModule.default;
+			Eye = eyeModule.default;
+			EyeOff = eyeOffModule.default;
+		} catch (error) {
+			console.error('Failed to load icons:', error);
+		}
+	});
 
 	function togglePasswordVisibility() {
 		showPassword = !showPassword;
+	}
+
+	function navigateToUser() {
+		goto('/user');
 	}
 </script>
 
@@ -37,11 +69,16 @@
 							placeholder="Your email address"
 							bind:value={email}
 							class="w-full rounded-md bg-gray-50 px-3 py-2 pr-10 text-sm"
+							disabled={isSubmitting}
 						/>
 						<div
 							class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400"
 						>
-							<Mail class="h-4 w-4" />
+							{#if Mail}
+								<Mail class="h-4 w-4" />
+							{:else}
+								<div class="h-4 w-4 animate-pulse rounded bg-gray-300"></div>
+							{/if}
 						</div>
 					</div>
 					<!-- Password input with eye/eye-off toggle -->
@@ -51,17 +88,23 @@
 							placeholder="Your password"
 							bind:value={password}
 							class="w-full rounded-md bg-gray-50 px-3 py-2 pr-10 text-sm"
+							disabled={isSubmitting}
 						/>
 						<button
 							type="button"
-							class="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 hover:text-gray-600"
+							class="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 hover:text-gray-600 disabled:opacity-50"
 							onclick={togglePasswordVisibility}
 							tabindex="-1"
+							disabled={isSubmitting}
 						>
-							{#if showPassword}
-								<Eye class="h-4 w-4" />
+							{#if Eye && EyeOff}
+								{#if showPassword}
+									<Eye class="h-4 w-4" />
+								{:else}
+									<EyeOff class="h-4 w-4" />
+								{/if}
 							{:else}
-								<EyeOff class="h-4 w-4" />
+								<div class="h-4 w-4 animate-pulse rounded bg-gray-300"></div>
 							{/if}
 						</button>
 					</div>
@@ -70,13 +113,28 @@
 							>Forgot password?</a
 						>
 					</div>
+					<!-- Login button -->
 					<Button
-						type="submit"
-						class="w-full rounded-md bg-blue-600 py-2 text-sm text-white hover:bg-gray-800"
+						class="hidden w-full rounded-md bg-blue-600 py-2 text-sm text-white hover:bg-blue-700"
 					>
-						Login
+						{#if isSubmitting}
+							<div class="flex items-center justify-center gap-2">
+								<div
+									class="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent"
+								></div>
+								Signing in...
+							</div>
+						{:else}
+							Login
+						{/if}
 					</Button>
 				</form>
+				<a
+					href="/user"
+					class="flex w-full items-center justify-center rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+				>
+					Login
+				</a>
 
 				<div class="mt-6 text-center text-xs">
 					<p class="text-gray-600">Don't hesitate to contact us</p>

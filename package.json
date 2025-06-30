@@ -14,8 +14,12 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
-		"optimize": "npm run build && npm run preview",
-		"perf": "npm run build && lighthouse http://localhost:4173 --output=html --output-path=./lighthouse-report.html"
+		"optimize": "pnpm run build && pnpm run preview",
+		"perf": "pnpm run build && lighthouse http://localhost:4173 --output=html --output-path=./lighthouse-report.html",
+		"analyze": "pnpm run build:analyze && npx vite-bundle-analyzer dist",
+		"speed": "pnpm run build && pnpm run preview --host",
+		"clean": "rm -rf .svelte-kit dist node_modules/.vite",
+		"fresh": "pnpm run clean && pnpm install && pnpm run dev"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",

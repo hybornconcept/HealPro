@@ -5,6 +5,7 @@
 	import { browser } from '$app/environment';
 	import { performanceMonitor } from '$lib/utils/performance';
 	import { preloadCommonIcons } from '$lib/utils/icons';
+	import PerformanceMonitor from '$lib/components/PerformanceMonitor.svelte';
 
 	let { children } = $props();
 
@@ -14,10 +15,7 @@
 
 	onMount(async () => {
 		// Load NProgress only when needed
-		const [nprogress] = await Promise.all([
-			import('nprogress'),
-			import('nprogress/nprogress.css')
-		]);
+		const [nprogress] = await Promise.all([import('nprogress'), import('nprogress/nprogress.css')]);
 
 		NProgress = nprogress.default;
 		NProgress.configure({
@@ -63,7 +61,10 @@
 
 <!-- Loading indicator for when NProgress isn't loaded yet -->
 {#if isNavigating && !NProgress}
-	<div class="fixed top-0 left-0 right-0 z-50 h-1 bg-blue-500 animate-pulse"></div>
+	<div class="fixed top-0 right-0 left-0 z-50 h-1 animate-pulse bg-blue-500"></div>
 {/if}
 
 {@render children()}
+
+<!-- Performance Monitor (only in development) -->
+<PerformanceMonitor />

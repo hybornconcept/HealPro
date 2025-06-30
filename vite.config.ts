@@ -66,16 +66,25 @@ export default defineConfig({
 	// Optimized dependency handling
 	optimizeDeps: {
 		include: [
-			'@lucide/svelte',
 			'@melt-ui/svelte',
 			'bits-ui',
 			'clsx',
 			'tailwind-merge',
-			'@internationalized/date'
+			'@internationalized/date',
+			'd3-scale',
+			'd3-shape'
 		],
-		exclude: ['@sveltejs/kit', 'nprogress'],
-		// Force optimization
-		force: false
+		exclude: [
+			'@sveltejs/kit',
+			'nprogress',
+			'@lucide/svelte' // Exclude to enable tree-shaking
+		],
+		// Force optimization for better performance
+		force: false,
+		// Enable esbuild for faster builds
+		esbuildOptions: {
+			target: 'esnext'
+		}
 	},
 	// CSS optimization
 	css: {

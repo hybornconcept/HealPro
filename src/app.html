@@ -13,8 +13,9 @@
 
 		<!-- Preload critical resources -->
 		<link rel="preload" href="/heroimage.png" as="image" />
+		<link rel="preload" href="/steth.jpg" as="image" />
 
-		<!-- Load fonts directly -->
+		<!-- Load fonts directly with optimizations -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="dns-prefetch" href="https://fonts.gstatic.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,10 +23,15 @@
 			href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-			rel="stylesheet"
-		/>
+
+		<!-- Resource hints for better performance -->
+		<link rel="prefetch" href="/user" />
+		<link rel="prefetch" href="/login" />
+		<link rel="dns-prefetch" href="//randomuser.me" />
+
+		<!-- Performance optimization meta tags -->
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="theme-color" content="#3b82f6" />
 
 		<!-- Critical CSS for above-the-fold content -->
 		<style>

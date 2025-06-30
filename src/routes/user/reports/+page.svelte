@@ -3,46 +3,72 @@
 	import * as Card from '$lib/components/ui/card/index.js';
 	import * as Select from '$lib/components/ui/select/index.js';
 	import * as Chart from '$lib/components/ui/chart/index.js';
-	import { ChevronRight, Bell, ExternalLink } from '@lucide/svelte';
-	import TrendingUpIcon from '@lucide/svelte/icons/trending-up';
+	import { onMount } from 'svelte';
+	import { browser } from '$app/environment';
 	import type { PageData } from './$types';
 
-	// Lazy load chart components for better performance
-	import { onMount } from 'svelte';
+	// Lazy load icons for better performance
+	let ChevronRight: any = $state(null);
+	let Bell: any = $state(null);
+	let TrendingUpIcon: any = $state(null);
 
+	// Progressive chart loading
 	let chartComponentsLoaded = $state(false);
+	let showChart = $state(false);
 	let scaleUtc = $state<any>(null);
 	let Area = $state<any>(null);
 	let AreaChart = $state<any>(null);
-	let ChartClipPath = $state<any>(null);
-	let curveNatural = $state<any>(null);
 	let ChartContainer = $state<any>(null);
-	let cubicInOut = $state<any>(null);
+	let curveNatural = $state<any>(null);
 
 	onMount(async () => {
-		// Lazy load heavy chart dependencies
-		const [
-			{ scaleUtc: scaleUtcImport },
-			{ Area: AreaImport, AreaChart: AreaChartImport, ChartClipPath: ChartClipPathImport },
-			{ curveNatural: curveNaturalImport },
-			ChartContainerImport,
-			{ cubicInOut: cubicInOutImport }
-		] = await Promise.all([
-			import('d3-scale'),
-			import('layerchart'),
-			import('d3-shape'),
-			import('$lib/components/ui/chart/chart-container.svelte'),
-			import('svelte/easing')
-		]);
+		if (!browser) return;
 
-		scaleUtc = scaleUtcImport;
-		Area = AreaImport;
-		AreaChart = AreaChartImport;
-		ChartClipPath = ChartClipPathImport;
-		curveNatural = curveNaturalImport;
-		ChartContainer = ChartContainerImport.default;
-		cubicInOut = cubicInOutImport;
-		chartComponentsLoaded = true;
+		// Load icons first (lightweight)
+		const loadIcons = async () => {
+			try {
+				const [chevronModule, bellModule, trendingModule] = await Promise.all([
+					import('@lucide/svelte/icons/chevron-right'),
+					import('@lucide/svelte/icons/bell'),
+					import('@lucide/svelte/icons/trending-up')
+				]);
+
+				ChevronRight = chevronModule.default;
+				Bell = bellModule.default;
+				TrendingUpIcon = trendingModule.default;
+			} catch (error) {
+				console.error('Failed to load icons:', error);
+			}
+		};
+
+		// Load chart components after a delay for better perceived performance
+		const loadChartComponents = async () => {
+			try {
+				// Use dynamic imports with smaller chunks
+				const [scaleModule, layerModule, shapeModule, containerModule] = await Promise.all([
+					import('d3-scale'),
+					import('layerchart'),
+					import('d3-shape'),
+					import('$lib/components/ui/chart/chart-container.svelte')
+				]);
+
+				scaleUtc = scaleModule.scaleUtc;
+				Area = layerModule.Area;
+				AreaChart = layerModule.AreaChart;
+				curveNatural = shapeModule.curveNatural;
+				ChartContainer = containerModule.default;
+
+				chartComponentsLoaded = true;
+				// Show chart after components are loaded
+				setTimeout(() => (showChart = true), 100);
+			} catch (error) {
+				console.error('Failed to load chart components:', error);
+			}
+		};
+
+		// Load icons immediately, charts after delay
+		await loadIcons();
+		setTimeout(loadChartComponents, 500); // Delay chart loading for better UX
 	});
 
 	let { data }: { data: PageData } = $props();
@@ -181,10 +207,9 @@
 					</Select.Root>
 				</Card.Header>
 				<Card.Content>
-					{#if chartComponentsLoaded && ChartContainer}
+					{#if showChart && chartComponentsLoaded && ChartContainer}
 						<ChartContainer config={chartConfig} class="aspect-auto h-[250px] w-full">
 							<AreaChart
-								legend
 								data={filteredData}
 								x="date"
 								xScale={scaleUtc()}
@@ -204,54 +229,53 @@
 								props={{
 									area: {
 										curve: curveNatural,
-										'fill-opacity': 0.4,
-										line: { class: 'stroke-1' },
-										// Disable animations for better performance
-										motion: false
+										'fill-opacity': 0.6,
+										// Disable all animations for maximum performance
+										motion: false,
+										transition: false
 									},
 									xAxis: {
-										// Limit ticks to improve rendering performance
-										ticks: areaTimeRange === '7d' ? 7 : areaTimeRange === '30d' ? 10 : 6,
-										format: (v: Date) =>
-											v.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+										// Minimal ticks for faster rendering
+										ticks: 4,
+										format: (v: Date) => v.toLocaleDateString('en-US', { month: 'short' })
 									},
-									yAxis: { format: () => '' }
+									yAxis: {
+										format: () => '',
+										ticks: 3
+									}
 								}}
 							>
 								{#snippet marks({ series, getAreaProps }: any)}
-									<defs>
-										<!-- Pre-defined gradients to avoid recalculation -->
-										<linearGradient id="fillDesktop" x1="0" y1="0" x2="0" y2="1">
-											<stop offset="5%" stop-color="var(--color-desktop)" stop-opacity={1.0} />
-											<stop offset="95%" stop-color="var(--color-desktop)" stop-opacity={0.1} />
-										</linearGradient>
-										<linearGradient id="fillMobile" x1="0" y1="0" x2="0" y2="1">
-											<stop offset="5%" stop-color="var(--color-mobile)" stop-opacity={0.8} />
-											<stop offset="95%" stop-color="var(--color-mobile)" stop-opacity={0.1} />
-										</linearGradient>
-									</defs>
-									<!-- Disable animation for better performance -->
+									<!-- Simplified rendering without gradients for speed -->
 									{#each series as s, i (s.key)}
-										<Area
-											{...getAreaProps(s, i)}
-											fill={s.key === 'desktop' ? 'url(#fillDesktop)' : 'url(#fillMobile)'}
-										/>
+										<Area {...getAreaProps(s, i)} fill={s.color} opacity={0.6} />
 									{/each}
-								{/snippet}
-								{#snippet tooltip()}
-									<Chart.Tooltip
-										labelFormatter={(v: Date) => v.toLocaleDateString('en-US', { month: 'long' })}
-										indicator="line"
-									/>
 								{/snippet}
 							</AreaChart>
 						</ChartContainer>
 					{:else}
-						<!-- Loading skeleton for chart -->
-						<div
-							class="flex aspect-auto h-[250px] w-full animate-pulse items-center justify-center rounded-lg bg-gray-100"
-						>
-							<div class="text-gray-500">Loading chart...</div>
+						<!-- Enhanced loading skeleton -->
+						<div class="aspect-auto h-[250px] w-full rounded-lg bg-gray-50 p-4">
+							<div class="flex h-full flex-col justify-between">
+								<!-- Skeleton chart bars -->
+								<div class="flex h-32 items-end justify-between gap-2">
+									{#each Array(8) as _, i}
+										<div
+											class="animate-pulse rounded-t bg-gray-200"
+											style="height: {Math.random() * 80 + 20}%; width: 12%;"
+										></div>
+									{/each}
+								</div>
+								<!-- Skeleton labels -->
+								<div class="mt-4 flex justify-between">
+									{#each Array(4) as _}
+										<div class="h-3 w-12 animate-pulse rounded bg-gray-200"></div>
+									{/each}
+								</div>
+							</div>
+							<div class="mt-4 text-center text-sm text-gray-500">
+								{chartComponentsLoaded ? 'Rendering chart...' : 'Loading chart components...'}
+							</div>
 						</div>
 					{/if}
 				</Card.Content>
@@ -259,7 +283,12 @@
 					<div class="flex w-full items-start gap-2 text-sm">
 						<div class="grid gap-2">
 							<div class="flex items-center gap-2 leading-none font-medium">
-								Trending up by 5.2% this month <TrendingUpIcon class="size-4" />
+								Trending up by 5.2% this month
+								{#if TrendingUpIcon}
+									<TrendingUpIcon class="size-4" />
+								{:else}
+									<div class="size-4 animate-pulse rounded bg-green-300"></div>
+								{/if}
 							</div>
 							<div class="text-muted-foreground flex items-center gap-2 leading-none">
 								January - June 2024
@@ -276,13 +305,22 @@
 			<Card.Root class="rounded-xl border bg-white p-0 shadow">
 				<div class="flex items-center justify-between px-6 pt-6 pb-2">
 					<h2 class="text-base font-semibold">Shop Advisor</h2>
-					<button class="flex items-center gap-1 text-xs text-gray-400 hover:underline"
-						>See All <ChevronRight class="inline h-4 w-4" /></button
-					>
+					<button class="flex items-center gap-1 text-xs text-gray-400 hover:underline">
+						See All
+						{#if ChevronRight}
+							<ChevronRight class="inline h-4 w-4" />
+						{:else}
+							<div class="inline h-4 w-4 animate-pulse rounded bg-gray-300"></div>
+						{/if}
+					</button>
 				</div>
 				<div class="px-6 pb-6">
 					<div class="flex items-center gap-3 rounded-lg bg-[#f4f4f4] p-3">
-						<Bell class="h-5 w-5 text-blue-500" />
+						{#if Bell}
+							<Bell class="h-5 w-5 text-blue-500" />
+						{:else}
+							<div class="h-5 w-5 animate-pulse rounded bg-blue-300"></div>
+						{/if}
 						<div>
 							<div class="text-sm font-medium">The Black Friday Starts Tomorrow</div>
 							<div class="text-xs text-gray-500">
@@ -301,9 +339,14 @@
 			<Card.Root class="rounded-xl border bg-white p-0 shadow">
 				<div class="flex items-center justify-between px-6 pt-6 pb-2">
 					<h2 class="text-base font-semibold">Products</h2>
-					<button class="flex items-center gap-1 text-xs text-gray-400 hover:underline"
-						>See All <ChevronRight class="inline h-4 w-4" /></button
-					>
+					<button class="flex items-center gap-1 text-xs text-gray-400 hover:underline">
+						See All
+						{#if ChevronRight}
+							<ChevronRight class="inline h-4 w-4" />
+						{:else}
+							<div class="inline h-4 w-4 animate-pulse rounded bg-gray-300"></div>
+						{/if}
+					</button>
 				</div>
 				<div class="px-6 pb-6">
 					<div class="flex flex-col gap-2">
@@ -321,9 +364,14 @@
 			<Card.Root class="rounded-xl border bg-white p-0 shadow">
 				<div class="flex items-center justify-between px-6 pt-6 pb-2">
 					<h2 class="text-base font-semibold">Recent Activities</h2>
-					<button class="flex items-center gap-1 text-xs text-gray-400 hover:underline"
-						>See All <ChevronRight class="inline h-4 w-4" /></button
-					>
+					<button class="flex items-center gap-1 text-xs text-gray-400 hover:underline">
+						See All
+						{#if ChevronRight}
+							<ChevronRight class="inline h-4 w-4" />
+						{:else}
+							<div class="inline h-4 w-4 animate-pulse rounded bg-gray-300"></div>
+						{/if}
+					</button>
 				</div>
 				<div class="px-6 pb-6">
 					<div class="flex flex-col gap-4">
@@ -350,8 +398,11 @@
 </div>
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
 	.report-font {
-		font-family: 'Nunito', sans-serif;
+		font-family:
+			'Nunito',
+			system-ui,
+			-apple-system,
+			sans-serif;
 	}
 </style>
