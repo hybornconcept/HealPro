@@ -4,7 +4,7 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import StatsCard from '$lib/components/StatsCard.svelte';
 	import FeatureGrid from '$lib/components/FeatureGrid.svelte';
-	import About from '$components/About.svelte';
+	import About from '$lib/components/About.svelte';
 	import Process from '$lib/components/Process.svelte';
 	import Testimonials from '$lib/components/Testimonials.svelte';
 	import Newsletter from '$lib/components/Newsletter.svelte';

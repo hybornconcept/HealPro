@@ -1,9 +1,16 @@
 import tailwindcss from '@tailwindcss/vite';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
+import { resolve } from 'path';
 
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
+	resolve: {
+		alias: {
+			$components: resolve('./src/lib/components'),
+			$lib: resolve('./src/lib')
+		}
+	},
 	// Enhanced build optimizations
 	build: {
 		target: 'esnext',
