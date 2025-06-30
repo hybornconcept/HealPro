@@ -1,11 +1,6 @@
 {
-	"builds": [
-		{
-			"src": "package.json",
-			"use": "@vercel/node",
-			"config": {
-				"installCommand": "pnpm install --no-frozen-lockfile"
-			}
-		}
-	]
+	"buildCommand": "pnpm run build",
+	"installCommand": "pnpm install --no-frozen-lockfile",
+	"framework": "sveltekit",
+	"outputDirectory": ".svelte-kit/output"
 }
