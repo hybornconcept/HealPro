@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-node';
+import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -14,12 +14,8 @@ const config = {
 	}),
 
 	kit: {
-		// Node.js adapter for better Windows compatibility
-		adapter: adapter({
-			out: 'build',
-			precompress: true,
-			envPrefix: ''
-		}),
+		// Using adapter-auto instead of adapter-node
+		adapter: adapter(),
 
 		// Security and performance
 		csrf: {
