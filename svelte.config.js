@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -14,7 +14,7 @@ const config = {
 	}),
 
 	kit: {
-		// Using adapter-auto instead of adapter-node
+		// Using adapter-vercel for Vercel deployments
 		adapter: adapter(),
 
 		// Security and performance
