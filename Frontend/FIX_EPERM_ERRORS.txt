@@ -1,0 +1,118 @@
+===============================================================================
+                    FIX EPERM ERRORS - PERMANENT SOLUTION
+===============================================================================
+
+This EPERM error is a persistent Windows file permission issue. 
+Follow these steps to fix this once and for all:
+
+===============================================================================
+STEP 1: CLOSE EVERYTHING AND RUN AS ADMINISTRATOR
+===============================================================================
+
+1. Close VS Code completely
+2. Close all terminals/command prompts
+3. Right-click on PowerShell/Command Prompt → "Run as administrator"
+4. Navigate to your project:
+   cd C:\Users\hayze\Documents\HealNew
+
+===============================================================================
+STEP 2: CLEAN EVERYTHING
+===============================================================================
+
+# Kill all Node processes
+taskkill /f /im node.exe
+
+# Remove all cache and lock files
+rmdir /s /q node_modules
+del pnpm-lock.yaml
+del package-lock.json
+
+# Clear pnpm cache
+pnpm store prune
+
+===============================================================================
+STEP 3: CONFIGURE WINDOWS FOR DEVELOPMENT
+===============================================================================
+
+# Set execution policy (run in PowerShell as admin)
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+# Disable Windows Defender real-time scanning for your project folder temporarily
+# Go to Windows Security → Virus & threat protection → Add exclusion → Folder
+# Add: C:\Users\hayze\Documents\HealNew
+
+===============================================================================
+STEP 4: INSTALL WITH SPECIFIC FLAGS
+===============================================================================
+
+# Install pnpm globally first
+npm install -g pnpm@latest
+
+# Install dependencies with permission flags
+pnpm install --no-frozen-lockfile --shamefully-hoist --unsafe-perm
+
+===============================================================================
+STEP 5: ALTERNATIVE - USE YARN INSTEAD
+===============================================================================
+
+If pnpm continues to have issues:
+
+# Install yarn
+npm install -g yarn
+
+# Install dependencies
+yarn install
+
+===============================================================================
+STEP 6: UPDATE PACKAGE.JSON SCRIPTS
+===============================================================================
+
+Update your package.json scripts to use pnpm:
+
+{
+  "scripts": {
+    "dev": "pnpm vite dev",
+    "build": "pnpm vite build",
+    "preview": "pnpm vite preview"
+  }
+}
+
+===============================================================================
+STEP 7: CREATE .PNPMRC FILE
+===============================================================================
+
+Create a .pnpmrc file in your project root:
+
+shamefully-hoist=true
+strict-peer-dependencies=false
+auto-install-peers=true
+unsafe-perm=true
+prefer-symlinks=false
+side-effects-cache=false
+
+===============================================================================
+ROOT CAUSE
+===============================================================================
+
+The EPERM errors happen because:
+- Windows file locking
+- Antivirus software scanning files during installation
+- Insufficient permissions
+- Symlink issues on Windows
+
+===============================================================================
+QUICK TEST
+===============================================================================
+
+After following the steps above, test with:
+pnpm dev
+
+===============================================================================
+SUMMARY
+===============================================================================
+
+Try these steps in order, and the EPERM errors should be resolved permanently!
+The key is running as administrator and excluding your project folder from 
+real-time antivirus scanning.
+
+===============================================================================

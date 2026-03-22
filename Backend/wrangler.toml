@@ -1,0 +1,31 @@
+name = "healpro"
+main = "src/index.ts"
+compatibility_date = "2025-03-15"
+compatibility_flags = ["nodejs_compat","nodejs_compat_populate_process_env"]
+
+[[hyperdrive]]
+binding = "HYPERDRIVE"
+id = "278eff40cbb24d48ace5600991a7abb9"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "healpro"
+
+[vars]
+R2_PUBLIC_URL = "https://documents.healpro.com"
+
+[placement]
+mode = "smart"
+
+[observability]
+enabled = true
+
+[env.staging]
+hyperdrive = [ { binding = "HYPERDRIVE", id = "706123facbec4617a5fe938e20eed497" } ]
+r2_buckets = [{ binding = "BUCKET", bucket_name = "healpro-documents-dev" }]
+
+[env.production]
+routes = [
+  { pattern = "api.healpro.org/*", zone_name = "healpro.org" }
+]
+                                                                                                                                                                                                      

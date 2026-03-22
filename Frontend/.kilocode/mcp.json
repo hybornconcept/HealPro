@@ -1,0 +1,45 @@
+{
+	"mcpServers": {
+		"context7": {
+			"command": "npx",
+			"args": ["-y", "@upstash/context7-mcp"],
+			"env": {
+				"DEFAULT_MINIMUM_TOKENS": ""
+			}
+		},
+		"neon": {
+			"command": "npx",
+			"args": ["-y", "mcp-remote", "https://mcp.neon.tech/sse"]
+		},
+		"sequentialthinking": {
+			"command": "npx",
+			"args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+		},
+		"svelte5": {
+			"command": "node",
+			"args": ["/path/to/svelte5-mcp-server/dist/index.js"],
+			"env": {}
+		},
+		"shadcn-svelte Docs": {
+			"url": "https://gitmcp.io/huntabyte/shadcn-svelte",
+			"disabled": false,
+			"autoApprove": [],
+			"alwaysAllow": []
+		},
+		"sveltekit-superforms Docs": {
+			"url": "https://gitmcp.io/ciscoheat/sveltekit-superforms",
+			"disabled": false,
+			"alwaysAllow": []
+		},
+		"svelte Docs": {
+			"url": "https://gitmcp.io/sveltejs/svelte"
+		},
+		"exa": {
+			"command": "npx",
+			"args": ["-y", "exa-mcp-server"],
+			"env": {
+				"EXA_API_KEY": "f9483e744d48bdf89bdff25f4bb3af3a"
+			}
+		}
+	}
+}

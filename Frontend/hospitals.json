@@ -1,0 +1,1482 @@
+﻿[
+    {
+        "state":"Abia",
+        "lga":"Aba North",
+        "facility_name":"Aba Holy Wounds Hospital"
+    },
+    {
+        "state":"Abia",
+        "lga":"Aba North",
+        "facility_name":"Alpha Inland Hospital"
+    },
+    {
+        "state":"Abia",
+        "lga":"Aba North",
+        "facility_name":"Angels of Mercy Hospital"
+    },
+    {
+        "state":"Abia",
+        "lga":"Aba North",
+        "facility_name":"Asa-Okpulor II Health Centre"
+    },
+    {
+        "state":"Abia",
+        "lga":"Aba North",
+        "facility_name":"Asaokpuaja Health Post"
+    },
+    {
+        "state":"Abia",
+        "lga":"Aba North",
+        "facility_name":"Asaokpulor1 PHC"
+    },
+    {
+        "state":"Abia",
+        "lga":"Aba North",
+        "facility_name":"Austin Graces Hospital"
+    },
+    {
+        "state":"Abia",
+        "lga":"Aba North",
+        "facility_name":"Berma Hospital"
+    },
+    {
+        "state":"Adamawa",
+        "lga":"Demsa",
+        "facility_name":"Baburu Health Post"
+    },
+    {
+        "state":"Adamawa",
+        "lga":"Demsa",
+        "facility_name":"Bali Primary Health Care Centre"
+    },
+    {
+        "state":"Adamawa",
+        "lga":"Demsa",
+        "facility_name":"Bariki Health Post"
+    },
+    {
+        "state":"Adamawa",
+        "lga":"Demsa",
+        "facility_name":"Bellanga Health Clinic"
+    },
+    {
+        "state":"Adamawa",
+        "lga":"Demsa",
+        "facility_name":"Bidda Health Post"
+    },
+    {
+        "state":"Adamawa",
+        "lga":"Demsa",
+        "facility_name":"Billachi Health Clinic"
+    },
+    {
+        "state":"Adamawa",
+        "lga":"Demsa",
+        "facility_name":"Bille Primary Health Care Centre"
+    },
+    {
+        "state":"Adamawa",
+        "lga":"Demsa",
+        "facility_name":"Bolon Health Post"
+    },
+    {
+        "state":"Akwa-Ibom",
+        "lga":"Abak",
+        "facility_name":"107c Ikot Okoro Road El-Ropheka Care Clinic"
+    },
+    {
+        "state":"Akwa-Ibom",
+        "lga":"Abak",
+        "facility_name":"111 Ikot Ekpene Road Dynasty Medical Centre"
+    },
+    {
+        "state":"Akwa-Ibom",
+        "lga":"Abak",
+        "facility_name":"Abak Cedar & Olive Clinic"
+    },
+    {
+        "state":"Akwa-Ibom",
+        "lga":"Abak",
+        "facility_name":"Abak Divine Medical Centre"
+    },
+    {
+        "state":"Akwa-Ibom",
+        "lga":"Abak",
+        "facility_name":"Abak Mercy Hospital"
+    },
+    {
+        "state":"Akwa-Ibom",
+        "lga":"Abak",
+        "facility_name":"Abak UduakAbasi Clinic"
+    },
+    {
+        "state":"Akwa-Ibom",
+        "lga":"Abak",
+        "facility_name":"Abiakpo Health Centre"
+    },
+    {
+        "state":"Akwa-Ibom",
+        "lga":"Abak",
+        "facility_name":"Afaha Obong Health Centre"
+    },
+    {
+        "state":"Anambra",
+        "lga":"Aguata",
+        "facility_name":"Achala Umuchu Health Post"
+    },
+    {
+        "state":"Anambra",
+        "lga":"Aguata",
+        "facility_name":"Achina Comprehensive Health Centre"
+    },
+    {
+        "state":"Anambra",
+        "lga":"Aguata",
+        "facility_name":"Aguata Primary Health Centre"
+    },
+    {
+        "state":"Anambra",
+        "lga":"Aguata",
+        "facility_name":"Agulu Ezechukwu Primary Health Centre"
+    },
+    {
+        "state":"Anambra",
+        "lga":"Aguata",
+        "facility_name":"Aguluezechukwu Health Post"
+    },
+    {
+        "state":"Anambra",
+        "lga":"Aguata",
+        "facility_name":"Akachukwu Hospital & Maternity Umuchu"
+    },
+    {
+        "state":"Anambra",
+        "lga":"Aguata",
+        "facility_name":"Akpo Primary Health Centre"
+    },
+    {
+        "state":"Anambra",
+        "lga":"Aguata",
+        "facility_name":"Aku Ezinifite Primary Health Centre"
+    },
+    {
+        "state":"Bauchi",
+        "lga":"Alkaleri",
+        "facility_name":"Alkaleri General Hospital"
+    },
+    {
+        "state":"Bauchi",
+        "lga":"Alkaleri",
+        "facility_name":"Alkaleri Health Post"
+    },
+    {
+        "state":"Bauchi",
+        "lga":"Alkaleri",
+        "facility_name":"Alkaleri Town Maternal & Child Health Clinic"
+    },
+    {
+        "state":"Bauchi",
+        "lga":"Alkaleri",
+        "facility_name":"Alkalerin DigarePrimary  Health Clinic"
+    },
+    {
+        "state":"Bauchi",
+        "lga":"Alkaleri",
+        "facility_name":"Badakoshi  Primary Health Clinic"
+    },
+    {
+        "state":"Bauchi",
+        "lga":"Alkaleri",
+        "facility_name":"Badara Health Post"
+    },
+    {
+        "state":"Bauchi",
+        "lga":"Alkaleri",
+        "facility_name":"Badaran Dutse Health Post"
+    },
+    {
+        "state":"Bauchi",
+        "lga":"Alkaleri",
+        "facility_name":"Bajama Primary Health Center"
+    },
+    {
+        "state":"Bayelsa",
+        "lga":"Brass",
+        "facility_name":"0ginibiri Primary Health Centre"
+    },
+    {
+        "state":"Bayelsa",
+        "lga":"Brass",
+        "facility_name":"Bekekiri Primary Health Centre"
+    },
+    {
+        "state":"Bayelsa",
+        "lga":"Brass",
+        "facility_name":"Buoama Primary Health Centre"
+    },
+    {
+        "state":"Bayelsa",
+        "lga":"Brass",
+        "facility_name":"Diema Primary Health Centre"
+    },
+    {
+        "state":"Bayelsa",
+        "lga":"Brass",
+        "facility_name":"Egweama Primary Health Centre"
+    },
+    {
+        "state":"Bayelsa",
+        "lga":"Brass",
+        "facility_name":"Ewoama Primary Health Centre"
+    },
+    {
+        "state":"Bayelsa",
+        "lga":"Brass",
+        "facility_name":"Ibidi Model Primary Health Centre"
+    },
+    {
+        "state":"Bayelsa",
+        "lga":"Brass",
+        "facility_name":"Imbikiri Primary Health Centre"
+    },
+    {
+        "state":"Benue",
+        "lga":"Ado",
+        "facility_name":"Adochi LG Health Post"
+    },
+    {
+        "state":"Benue",
+        "lga":"Ado",
+        "facility_name":"Aganacha Family Support Programme Clinic"
+    },
+    {
+        "state":"Benue",
+        "lga":"Ado",
+        "facility_name":"Agila Primary Health Centre"
+    },
+    {
+        "state":"Benue",
+        "lga":"Ado",
+        "facility_name":"Alomo Health Post"
+    },
+    {
+        "state":"Benue",
+        "lga":"Ado",
+        "facility_name":"Apa Basic Health Clinic"
+    },
+    {
+        "state":"Benue",
+        "lga":"Ado",
+        "facility_name":"Apa New Site Health Centre"
+    },
+    {
+        "state":"Benue",
+        "lga":"Ado",
+        "facility_name":"Bethany Clinic and Marternity Ndigwe"
+    },
+    {
+        "state":"Benue",
+        "lga":"Ado",
+        "facility_name":"Ekile LG Health Post"
+    },
+    {
+        "state":"Borno",
+        "lga":"Abadam",
+        "facility_name":"Abadam Health Clinic"
+    },
+    {
+        "state":"Borno",
+        "lga":"Abadam",
+        "facility_name":"Arge Health clinic"
+    },
+    {
+        "state":"Borno",
+        "lga":"Abadam",
+        "facility_name":"Cocin Church Health Clinic"
+    },
+    {
+        "state":"Borno",
+        "lga":"Abadam",
+        "facility_name":"Dogon Chuku Health Post"
+    },
+    {
+        "state":"Borno",
+        "lga":"Abadam",
+        "facility_name":"Doro Maternity Health Centre"
+    },
+    {
+        "state":"Borno",
+        "lga":"Abadam",
+        "facility_name":"Garere Health clinic"
+    },
+    {
+        "state":"Borno",
+        "lga":"Abadam",
+        "facility_name":"General Hospital Abadam"
+    },
+    {
+        "state":"Borno",
+        "lga":"Abadam",
+        "facility_name":"Jabullam Health clinic"
+    },
+    {
+        "state":"Cross River",
+        "lga":"Abi",
+        "facility_name":"Abe Enyi Uzor Health Post"
+    },
+    {
+        "state":"Cross River",
+        "lga":"Abi",
+        "facility_name":"Abe Tete Nkita Bazohure Health Post"
+    },
+    {
+        "state":"Cross River",
+        "lga":"Abi",
+        "facility_name":"Abeugo Health Centre"
+    },
+    {
+        "state":"Cross River",
+        "lga":"Abi",
+        "facility_name":"Adadama Primary Health Centre"
+    },
+    {
+        "state":"Cross River",
+        "lga":"Abi",
+        "facility_name":"Afafanyi Primary Health Centre"
+    },
+    {
+        "state":"Cross River",
+        "lga":"Abi",
+        "facility_name":"Agba Health Post"
+    },
+    {
+        "state":"Cross River",
+        "lga":"Abi",
+        "facility_name":"Agbara Heath   Center"
+    },
+    {
+        "state":"Cross River",
+        "lga":"Abi",
+        "facility_name":"Akarefor Health Post"
+    },
+    {
+        "state":"Delta",
+        "lga":"Aniocha North",
+        "facility_name":"Ajulu Clinic"
+    },
+    {
+        "state":"Delta",
+        "lga":"Aniocha North",
+        "facility_name":"Aniofu Health Post"
+    },
+    {
+        "state":"Delta",
+        "lga":"Aniocha North",
+        "facility_name":"Ezi Primary Health Centre"
+    },
+    {
+        "state":"Delta",
+        "lga":"Aniocha North",
+        "facility_name":"General Hospital Issele Uku"
+    },
+    {
+        "state":"Delta",
+        "lga":"Aniocha North",
+        "facility_name":"Glory To God Medical Clinic"
+    },
+    {
+        "state":"Delta",
+        "lga":"Aniocha North",
+        "facility_name":"Idumuje Unor Comprehensive Health Centre"
+    },
+    {
+        "state":"Delta",
+        "lga":"Aniocha North",
+        "facility_name":"Idumuje-Ugboko Primary Health Centre"
+    },
+    {
+        "state":"Delta",
+        "lga":"Aniocha North",
+        "facility_name":"Idumuogo Primary Health Care Centre"
+    },
+    {
+        "state":"Ebonyi",
+        "lga":"Abakaliki",
+        "facility_name":"Abundant Life and Specialist Clinic, Abakaliki"
+    },
+    {
+        "state":"Ebonyi",
+        "lga":"Abakaliki",
+        "facility_name":"Agbaja Unuhu Health Center"
+    },
+    {
+        "state":"Ebonyi",
+        "lga":"Abakaliki",
+        "facility_name":"Akpe Amachi Health Centre"
+    },
+    {
+        "state":"Ebonyi",
+        "lga":"Abakaliki",
+        "facility_name":"Anglican Bethel Mission Hospital"
+    },
+    {
+        "state":"Ebonyi",
+        "lga":"Abakaliki",
+        "facility_name":"Assumpta Specialist Hospital, Abakaliki"
+    },
+    {
+        "state":"Ebonyi",
+        "lga":"Abakaliki",
+        "facility_name":"Azuakpara MDG Health Cente"
+    },
+    {
+        "state":"Ebonyi",
+        "lga":"Abakaliki",
+        "facility_name":"Azuakpara Mellianim Development Goals"
+    },
+    {
+        "state":"Ebonyi",
+        "lga":"Abakaliki",
+        "facility_name":"Azuiyiokwu Maternal and Child Health Clinic"
+    },
+    {
+        "state":"Edo",
+        "lga":"Akoko-Edo",
+        "facility_name":"Aiyegunle Primary Health Centre"
+    },
+    {
+        "state":"Edo",
+        "lga":"Akoko-Edo",
+        "facility_name":"Akpama Health Post"
+    },
+    {
+        "state":"Edo",
+        "lga":"Akoko-Edo",
+        "facility_name":"Akuku Primary Health Clinic"
+    },
+    {
+        "state":"Edo",
+        "lga":"Akoko-Edo",
+        "facility_name":"Alafia Specialist Clinic and Maternity Home, Igarra"
+    },
+    {
+        "state":"Edo",
+        "lga":"Akoko-Edo",
+        "facility_name":"Atte Primary Health Clinic"
+    },
+    {
+        "state":"Edo",
+        "lga":"Akoko-Edo",
+        "facility_name":"Ayanran Health Post"
+    },
+    {
+        "state":"Edo",
+        "lga":"Akoko-Edo",
+        "facility_name":"Bekuma  Health Post"
+    },
+    {
+        "state":"Edo",
+        "lga":"Akoko-Edo",
+        "facility_name":"Clara Oshiomole Primary Health Centre"
+    },
+    {
+        "state":"Ekiti",
+        "lga":"Ado Ekiti",
+        "facility_name":"Abek Clinic"
+    },
+    {
+        "state":"Ekiti",
+        "lga":"Ado Ekiti",
+        "facility_name":"Abuad Multi-System Hospital"
+    },
+    {
+        "state":"Ekiti",
+        "lga":"Ado Ekiti",
+        "facility_name":"Abundant Life Hospital"
+    },
+    {
+        "state":"Ekiti",
+        "lga":"Ado Ekiti",
+        "facility_name":"Ade-Tade Hospital Ado"
+    },
+    {
+        "state":"Ekiti",
+        "lga":"Ado Ekiti",
+        "facility_name":"Adesoye Memorial Clinic and Maternity Centre"
+    },
+    {
+        "state":"Ekiti",
+        "lga":"Ado Ekiti",
+        "facility_name":"Adetoyin Hospital Venture"
+    },
+    {
+        "state":"Ekiti",
+        "lga":"Ado Ekiti",
+        "facility_name":"Ado Grammar School Clinic"
+    },
+    {
+        "state":"Ekiti",
+        "lga":"Ado Ekiti",
+        "facility_name":"Ado Police  Cottage Hospital"
+    },
+    {
+        "state":"Enugu",
+        "lga":"Agwu",
+        "facility_name":"Agbogugu Health Centre"
+    },
+    {
+        "state":"Enugu",
+        "lga":"Agwu",
+        "facility_name":"Agbudu Health Center"
+    },
+    {
+        "state":"Enugu",
+        "lga":"Agwu",
+        "facility_name":"Agulese Health Centre"
+    },
+    {
+        "state":"Enugu",
+        "lga":"Agwu",
+        "facility_name":"Amoli Health Centre"
+    },
+    {
+        "state":"Enugu",
+        "lga":"Agwu",
+        "facility_name":"Awgu District Hospital"
+    },
+    {
+        "state":"Enugu",
+        "lga":"Agwu",
+        "facility_name":"Awgu Maternal And Child Health Clinic"
+    },
+    {
+        "state":"Enugu",
+        "lga":"Agwu",
+        "facility_name":"Awgunta Health Post"
+    },
+    {
+        "state":"Enugu",
+        "lga":"Agwu",
+        "facility_name":"Awono Health Centre"
+    },
+    {
+        "state":"FCT",
+        "lga":"Abaji",
+        "facility_name":"Abaji  New Township Primary Health Center"
+    },
+    {
+        "state":"FCT",
+        "lga":"Abaji",
+        "facility_name":"Abaji Central Primary Health Clinic"
+    },
+    {
+        "state":"FCT",
+        "lga":"Abaji",
+        "facility_name":"Abaji General Hospital"
+    },
+    {
+        "state":"FCT",
+        "lga":"Abaji",
+        "facility_name":"Abaji Maternal And Child Health Clinic"
+    },
+    {
+        "state":"FCT",
+        "lga":"Abaji",
+        "facility_name":"Abattior Primary  Health Clinic"
+    },
+    {
+        "state":"FCT",
+        "lga":"Abaji",
+        "facility_name":"Adgba Primary  Health  Clinic"
+    },
+    {
+        "state":"FCT",
+        "lga":"Abaji",
+        "facility_name":"Agyana Health Clinic"
+    },
+    {
+        "state":"FCT",
+        "lga":"Abaji",
+        "facility_name":"Ayaura Primary Health Centre"
+    },
+    {
+        "state":"Gombe",
+        "lga":"Akko",
+        "facility_name":"Abacha Quartes  Health Clinic"
+    },
+    {
+        "state":"Gombe",
+        "lga":"Akko",
+        "facility_name":"Ahajas Memorial Hospital"
+    },
+    {
+        "state":"Gombe",
+        "lga":"Akko",
+        "facility_name":"Akko Primary Healthcare Centre"
+    },
+    {
+        "state":"Gombe",
+        "lga":"Akko",
+        "facility_name":"Arawa Health Clinic"
+    },
+    {
+        "state":"Gombe",
+        "lga":"Akko",
+        "facility_name":"Arfa Medical Centre"
+    },
+    {
+        "state":"Gombe",
+        "lga":"Akko",
+        "facility_name":"Badara Health Post"
+    },
+    {
+        "state":"Gombe",
+        "lga":"Akko",
+        "facility_name":"Bappah Ibrahima Primary Health Centre"
+    },
+    {
+        "state":"Gombe",
+        "lga":"Akko",
+        "facility_name":"Barambu Primary Healthcare Centre"
+    },
+    {
+        "state":"Imo",
+        "lga":"Aboh-Mbaise",
+        "facility_name":"Aboh Mbaise General Hospital"
+    },
+    {
+        "state":"Imo",
+        "lga":"Aboh-Mbaise",
+        "facility_name":"Ahiato Health Centre"
+    },
+    {
+        "state":"Imo",
+        "lga":"Aboh-Mbaise",
+        "facility_name":"Amuze Health  Center"
+    },
+    {
+        "state":"Imo",
+        "lga":"Aboh-Mbaise",
+        "facility_name":"Amuzu Nwenkwo Health Centre"
+    },
+    {
+        "state":"Imo",
+        "lga":"Aboh-Mbaise",
+        "facility_name":"Ascension Maternity And Clinic"
+    },
+    {
+        "state":"Imo",
+        "lga":"Aboh-Mbaise",
+        "facility_name":"Ave Maria Hospital And Motherless Babies Home Eziala Ogwu"
+    },
+    {
+        "state":"Imo",
+        "lga":"Aboh-Mbaise",
+        "facility_name":"Blessed Maria Schinna For The Poor Clinic"
+    },
+    {
+        "state":"Imo",
+        "lga":"Aboh-Mbaise",
+        "facility_name":"Catholic Convent Hospital Amuzu"
+    },
+    {
+        "state":"Jigawa",
+        "lga":"Auyo",
+        "facility_name":"Auyakayi Primary Health clinic"
+    },
+    {
+        "state":"Jigawa",
+        "lga":"Auyo",
+        "facility_name":"Auyo Primary Health Centre"
+    },
+    {
+        "state":"Jigawa",
+        "lga":"Auyo",
+        "facility_name":"Ayama primary Health Clinic"
+    },
+    {
+        "state":"Jigawa",
+        "lga":"Auyo",
+        "facility_name":"Ayan Primary Health Clinic"
+    },
+    {
+        "state":"Jigawa",
+        "lga":"Auyo",
+        "facility_name":"Bengeli Health Post"
+    },
+    {
+        "state":"Jigawa",
+        "lga":"Auyo",
+        "facility_name":"Galdimari Primary Health Clinic"
+    },
+    {
+        "state":"Jigawa",
+        "lga":"Auyo",
+        "facility_name":"Gamafai Health Post"
+    },
+    {
+        "state":"Jigawa",
+        "lga":"Auyo",
+        "facility_name":"Gamafoi Besic health clinic"
+    },
+    {
+        "state":"Kaduna",
+        "lga":"Birnin Gwari",
+        "facility_name":"Alumma Nursing And Maternity Home"
+    },
+    {
+        "state":"Kaduna",
+        "lga":"Birnin Gwari",
+        "facility_name":"Anguwan Haladu Priamry Health Centre"
+    },
+    {
+        "state":"Kaduna",
+        "lga":"Birnin Gwari",
+        "facility_name":"Anguwan Shitu Health Clinic"
+    },
+    {
+        "state":"Kaduna",
+        "lga":"Birnin Gwari",
+        "facility_name":"Anguwar Baduku Health Clinic"
+    },
+    {
+        "state":"Kaduna",
+        "lga":"Birnin Gwari",
+        "facility_name":"Awaro Health Clinic"
+    },
+    {
+        "state":"Kaduna",
+        "lga":"Birnin Gwari",
+        "facility_name":"Badamuwa Nursing Home"
+    },
+    {
+        "state":"Kaduna",
+        "lga":"Birnin Gwari",
+        "facility_name":"Bagoma Health Clinic"
+    },
+    {
+        "state":"Kaduna",
+        "lga":"Birnin Gwari",
+        "facility_name":"Bugai Health Clinic"
+    },
+    {
+        "state":"Kano",
+        "lga":"Ajingi",
+        "facility_name":"Ajingi Cottage Hospital"
+    },
+    {
+        "state":"Kano",
+        "lga":"Ajingi",
+        "facility_name":"Balare Primary Health Centre"
+    },
+    {
+        "state":"Kano",
+        "lga":"Ajingi",
+        "facility_name":"Biyamusu Health Post"
+    },
+    {
+        "state":"Kano",
+        "lga":"Ajingi",
+        "facility_name":"Chula Health Clinic"
+    },
+    {
+        "state":"Kano",
+        "lga":"Ajingi",
+        "facility_name":"Dabi Health Post"
+    },
+    {
+        "state":"Kano",
+        "lga":"Ajingi",
+        "facility_name":"Dan Malam Health Post"
+    },
+    {
+        "state":"Kano",
+        "lga":"Ajingi",
+        "facility_name":"Dundun Health Post"
+    },
+    {
+        "state":"Kano",
+        "lga":"Ajingi",
+        "facility_name":"Fagawa Health Post"
+    },
+    {
+        "state":"Katsina",
+        "lga":"Bakori",
+        "facility_name":"Adako Health Clinic"
+    },
+    {
+        "state":"Katsina",
+        "lga":"Bakori",
+        "facility_name":"Adako health clinic"
+    },
+    {
+        "state":"Katsina",
+        "lga":"Bakori",
+        "facility_name":"Afuwa Clinic"
+    },
+    {
+        "state":"Katsina",
+        "lga":"Bakori",
+        "facility_name":"Aisha memorial clinic"
+    },
+    {
+        "state":"Katsina",
+        "lga":"Bakori",
+        "facility_name":"Ala Bura Health Clinic"
+    },
+    {
+        "state":"Katsina",
+        "lga":"Bakori",
+        "facility_name":"Babban Kofai Health Clinic"
+    },
+    {
+        "state":"Katsina",
+        "lga":"Bakori",
+        "facility_name":"Babban Kufai Primary Health Centre"
+    },
+    {
+        "state":"Katsina",
+        "lga":"Bakori",
+        "facility_name":"Bakori clinic"
+    },
+    {
+        "state":"Kebbi",
+        "lga":"Aleiro",
+        "facility_name":"Aleiro General Hospital"
+    },
+    {
+        "state":"Kebbi",
+        "lga":"Aleiro",
+        "facility_name":"Aliero Dangeda Hospital"
+    },
+    {
+        "state":"Kebbi",
+        "lga":"Aleiro",
+        "facility_name":"Dakala Health Clinic"
+    },
+    {
+        "state":"Kebbi",
+        "lga":"Aleiro",
+        "facility_name":"Dangaladima 1 Primary Health Centre"
+    },
+    {
+        "state":"Kebbi",
+        "lga":"Aleiro",
+        "facility_name":"Danwarai Primary Health Centre"
+    },
+    {
+        "state":"Kebbi",
+        "lga":"Aleiro",
+        "facility_name":"Dorawai Dispensary"
+    },
+    {
+        "state":"Kebbi",
+        "lga":"Aleiro",
+        "facility_name":"Dorawai Primary Health Centre"
+    },
+    {
+        "state":"Kebbi",
+        "lga":"Aleiro",
+        "facility_name":"Gangije Health Post"
+    },
+    {
+        "state":"Kogi",
+        "lga":"Adavi",
+        "facility_name":"Ada-Ohi Primary Health Care Centre"
+    },
+    {
+        "state":"Kogi",
+        "lga":"Adavi",
+        "facility_name":"Adavi Eba Cottage Hospital"
+    },
+    {
+        "state":"Kogi",
+        "lga":"Adavi",
+        "facility_name":"Adavi Evangelical Church Of West Africa (ECWA) Hospital"
+    },
+    {
+        "state":"Kogi",
+        "lga":"Adavi",
+        "facility_name":"Adavi Family Support Programme Maternity Clinic"
+    },
+    {
+        "state":"Kogi",
+        "lga":"Adavi",
+        "facility_name":"Adavi-Eba Primary Health Centre"
+    },
+    {
+        "state":"Kogi",
+        "lga":"Adavi",
+        "facility_name":"Agape Clinic"
+    },
+    {
+        "state":"Kogi",
+        "lga":"Adavi",
+        "facility_name":"Aku Primary Health Clinic"
+    },
+    {
+        "state":"Kogi",
+        "lga":"Adavi",
+        "facility_name":"Alheri Clinic"
+    },
+    {
+        "state":"Kwara",
+        "lga":"Asa",
+        "facility_name":"Abayawo Primary Health Center"
+    },
+    {
+        "state":"Kwara",
+        "lga":"Asa",
+        "facility_name":"Aboto Alfa Primary Health Center"
+    },
+    {
+        "state":"Kwara",
+        "lga":"Asa",
+        "facility_name":"Aboto Oja Primary Health Center"
+    },
+    {
+        "state":"Kwara",
+        "lga":"Asa",
+        "facility_name":"Afo-Oja Health Centre"
+    },
+    {
+        "state":"Kwara",
+        "lga":"Asa",
+        "facility_name":"Afon District Health Unit Clinic"
+    },
+    {
+        "state":"Kwara",
+        "lga":"Asa",
+        "facility_name":"Agbona Primary Health Centre"
+    },
+    {
+        "state":"Kwara",
+        "lga":"Asa",
+        "facility_name":"Ago-oja Primary Health Center"
+    },
+    {
+        "state":"Kwara",
+        "lga":"Asa",
+        "facility_name":"Aisha A Clinic & Maternity"
+    },
+    {
+        "state":"Lagos",
+        "lga":"Agege",
+        "facility_name":"Adams Clinic and Maternity Home"
+    },
+    {
+        "state":"Lagos",
+        "lga":"Agege",
+        "facility_name":"Adeoti  Group Nursing Home"
+    },
+    {
+        "state":"Lagos",
+        "lga":"Agege",
+        "facility_name":"Adewunmi Hospital"
+    },
+    {
+        "state":"Lagos",
+        "lga":"Agege",
+        "facility_name":"Adu Medical Clinic"
+    },
+    {
+        "state":"Lagos",
+        "lga":"Agege",
+        "facility_name":"Ajegunle Health Post"
+    },
+    {
+        "state":"Lagos",
+        "lga":"Agege",
+        "facility_name":"Al-Imaan Hospital And Maternity Home"
+    },
+    {
+        "state":"Lagos",
+        "lga":"Agege",
+        "facility_name":"All Souls Infimary Hospital"
+    },
+    {
+        "state":"Lagos",
+        "lga":"Agege",
+        "facility_name":"Alpha Convalescent Centre"
+    },
+    {
+        "state":"Nasarawa",
+        "lga":"Akwanga",
+        "facility_name":"Aban Primary Health Post"
+    },
+    {
+        "state":"Nasarawa",
+        "lga":"Akwanga",
+        "facility_name":"Adde Primary Health Clinic"
+    },
+    {
+        "state":"Nasarawa",
+        "lga":"Akwanga",
+        "facility_name":"Agyaga Primary Health Clinic"
+    },
+    {
+        "state":"Nasarawa",
+        "lga":"Akwanga",
+        "facility_name":"Akkah Primary Health Clinic"
+    },
+    {
+        "state":"Nasarawa",
+        "lga":"Akwanga",
+        "facility_name":"Akpomoshi Medical Centre Akwanga"
+    },
+    {
+        "state":"Nasarawa",
+        "lga":"Akwanga",
+        "facility_name":"Akwanga College Of Education Medical Center"
+    },
+    {
+        "state":"Nasarawa",
+        "lga":"Akwanga",
+        "facility_name":"Akwanga Town Primary Health Clinic (MDG)"
+    },
+    {
+        "state":"Nasarawa",
+        "lga":"Akwanga",
+        "facility_name":"Ancho 'B' Primary Health Centre (MDGs)"
+    },
+    {
+        "state":"Niger",
+        "lga":"Agaie",
+        "facility_name":"Agaie General Hospital"
+    },
+    {
+        "state":"Niger",
+        "lga":"Agaie",
+        "facility_name":"Agaie Town Health Centre."
+    },
+    {
+        "state":"Niger",
+        "lga":"Agaie",
+        "facility_name":"Akwano Primary Health Centre"
+    },
+    {
+        "state":"Niger",
+        "lga":"Agaie",
+        "facility_name":"Baro Primary Health Centre"
+    },
+    {
+        "state":"Niger",
+        "lga":"Agaie",
+        "facility_name":"Boku Primary Health Care Center"
+    },
+    {
+        "state":"Niger",
+        "lga":"Agaie",
+        "facility_name":"Bororoko Primary Health Centre"
+    },
+    {
+        "state":"Niger",
+        "lga":"Agaie",
+        "facility_name":"Chata Primary Health Centre"
+    },
+    {
+        "state":"Niger",
+        "lga":"Agaie",
+        "facility_name":"Ebangi Health Post"
+    },
+    {
+        "state":"Ogun",
+        "lga":"Abeokuta North",
+        "facility_name":"35 ARMY BRIGADE"
+    },
+    {
+        "state":"Ogun",
+        "lga":"Abeokuta North",
+        "facility_name":"Abinbola Clinic and Maternity Home"
+    },
+    {
+        "state":"Ogun",
+        "lga":"Abeokuta North",
+        "facility_name":"Abiye Clinic And Maternity Home"
+    },
+    {
+        "state":"Ogun",
+        "lga":"Abeokuta North",
+        "facility_name":"Abraham Clinic and Maternity Home"
+    },
+    {
+        "state":"Ogun",
+        "lga":"Abeokuta North",
+        "facility_name":"Ademuyiwa Clinic Maternity Home"
+    },
+    {
+        "state":"Ogun",
+        "lga":"Abeokuta North",
+        "facility_name":"Ademuyiwa Hospitals"
+    },
+    {
+        "state":"Ogun",
+        "lga":"Abeokuta North",
+        "facility_name":"Adeun Health Clinic"
+    },
+    {
+        "state":"Ogun",
+        "lga":"Abeokuta North",
+        "facility_name":"Akin Olugbade Hospital"
+    },
+    {
+        "state":"Ondo",
+        "lga":"Akoko North East",
+        "facility_name":"Abimbola Medical Centre"
+    },
+    {
+        "state":"Ondo",
+        "lga":"Akoko North East",
+        "facility_name":"Adeyemi Memorial Hospital Ikare"
+    },
+    {
+        "state":"Ondo",
+        "lga":"Akoko North East",
+        "facility_name":"Akunnu  Primary Health Clinic"
+    },
+    {
+        "state":"Ondo",
+        "lga":"Akoko North East",
+        "facility_name":"Al-Huda Medical Centre"
+    },
+    {
+        "state":"Ondo",
+        "lga":"Akoko North East",
+        "facility_name":"Alapata Primary Health Centre"
+    },
+    {
+        "state":"Ondo",
+        "lga":"Akoko North East",
+        "facility_name":"Auga Okeimole Health Post"
+    },
+    {
+        "state":"Ondo",
+        "lga":"Akoko North East",
+        "facility_name":"Ayoogunlade Poly Clinic"
+    },
+    {
+        "state":"Ondo",
+        "lga":"Akoko North East",
+        "facility_name":"Basic Health Centre Auga Okeigbagbo"
+    },
+    {
+        "state":"Osun",
+        "lga":"Atakumosa East",
+        "facility_name":"Aasa Primary Health Centre"
+    },
+    {
+        "state":"Osun",
+        "lga":"Atakumosa East",
+        "facility_name":"Aguda Primary Health Centre"
+    },
+    {
+        "state":"Osun",
+        "lga":"Atakumosa East",
+        "facility_name":"Ajebandele Primary Health Centre"
+    },
+    {
+        "state":"Osun",
+        "lga":"Atakumosa East",
+        "facility_name":"Ajebandele-Aje Primary Health Centre"
+    },
+    {
+        "state":"Osun",
+        "lga":"Atakumosa East",
+        "facility_name":"Ajido Primary Health Centre"
+    },
+    {
+        "state":"Osun",
+        "lga":"Atakumosa East",
+        "facility_name":"Aladodo primary health centre"
+    },
+    {
+        "state":"Osun",
+        "lga":"Atakumosa East",
+        "facility_name":"Aladodo Primary Health Centre"
+    },
+    {
+        "state":"Osun",
+        "lga":"Atakumosa East",
+        "facility_name":"Alarere Primary Health Centre"
+    },
+    {
+        "state":"Oyo",
+        "lga":"Afijio",
+        "facility_name":"Aba-Adio Primary Health Centre"
+    },
+    {
+        "state":"Oyo",
+        "lga":"Afijio",
+        "facility_name":"Abanti Primary Health Centre"
+    },
+    {
+        "state":"Oyo",
+        "lga":"Afijio",
+        "facility_name":"Access Basic Foundation Clinic"
+    },
+    {
+        "state":"Oyo",
+        "lga":"Afijio",
+        "facility_name":"Aged And Widow Clinic"
+    },
+    {
+        "state":"Oyo",
+        "lga":"Afijio",
+        "facility_name":"Ajayi Memorial Hospital"
+    },
+    {
+        "state":"Oyo",
+        "lga":"Afijio",
+        "facility_name":"Akinmorin Europian Economic Clinic"
+    },
+    {
+        "state":"Oyo",
+        "lga":"Afijio",
+        "facility_name":"Akinmorin Primary Health Centre"
+    },
+    {
+        "state":"Oyo",
+        "lga":"Afijio",
+        "facility_name":"Asaju Primary Health Centre"
+    },
+    {
+        "state":"Plateau",
+        "lga":"Barkin Ladi",
+        "facility_name":"Aamat Clinic and Maternity"
+    },
+    {
+        "state":"Plateau",
+        "lga":"Barkin Ladi",
+        "facility_name":"Almizal  Medical Dispensary"
+    },
+    {
+        "state":"Plateau",
+        "lga":"Barkin Ladi",
+        "facility_name":"B\/Ladi Staff Clinic"
+    },
+    {
+        "state":"Plateau",
+        "lga":"Barkin Ladi",
+        "facility_name":"Bakin Kogi Primary Health Centre"
+    },
+    {
+        "state":"Plateau",
+        "lga":"Barkin Ladi",
+        "facility_name":"Barkin Ladi General Hospital"
+    },
+    {
+        "state":"Plateau",
+        "lga":"Barkin Ladi",
+        "facility_name":"Bawan Dodo Primary Health Centre"
+    },
+    {
+        "state":"Plateau",
+        "lga":"Barkin Ladi",
+        "facility_name":"Bek Primary Health Centrte"
+    },
+    {
+        "state":"Plateau",
+        "lga":"Barkin Ladi",
+        "facility_name":"Bisichi Primary Health Centre"
+    },
+    {
+        "state":"Rivers",
+        "lga":"Abua\/Odual",
+        "facility_name":"Adada Primary Health Centre"
+    },
+    {
+        "state":"Rivers",
+        "lga":"Abua\/Odual",
+        "facility_name":"Agada 1 Primary Health Centre"
+    },
+    {
+        "state":"Rivers",
+        "lga":"Abua\/Odual",
+        "facility_name":"Akani Health Post"
+    },
+    {
+        "state":"Rivers",
+        "lga":"Abua\/Odual",
+        "facility_name":"Aminigboko Cottage Hospital"
+    },
+    {
+        "state":"Rivers",
+        "lga":"Abua\/Odual",
+        "facility_name":"Aminiowere Primary Health Centre"
+    },
+    {
+        "state":"Rivers",
+        "lga":"Abua\/Odual",
+        "facility_name":"Amuruto Primary Health Post"
+    },
+    {
+        "state":"Rivers",
+        "lga":"Abua\/Odual",
+        "facility_name":"Arukwo Primary Health Centre"
+    },
+    {
+        "state":"Rivers",
+        "lga":"Abua\/Odual",
+        "facility_name":"Ayama Primary Health Centre"
+    },
+    {
+        "state":"Sokoto",
+        "lga":"Binji",
+        "facility_name":"Baliyo Usman Health Post"
+    },
+    {
+        "state":"Sokoto",
+        "lga":"Binji",
+        "facility_name":"Binji General Hospital"
+    },
+    {
+        "state":"Sokoto",
+        "lga":"Binji",
+        "facility_name":"Binji Health Post"
+    },
+    {
+        "state":"Sokoto",
+        "lga":"Binji",
+        "facility_name":"Birnin Wari Health Clinc"
+    },
+    {
+        "state":"Sokoto",
+        "lga":"Binji",
+        "facility_name":"Bunkari Model Primary Health Care"
+    },
+    {
+        "state":"Sokoto",
+        "lga":"Binji",
+        "facility_name":"Dalijan Health Post"
+    },
+    {
+        "state":"Sokoto",
+        "lga":"Binji",
+        "facility_name":"Dan-Mali Health Post"
+    },
+    {
+        "state":"Sokoto",
+        "lga":"Binji",
+        "facility_name":"Fako Health Post"
+    },
+    {
+        "state":"Taraba",
+        "lga":"Ardo-kola",
+        "facility_name":"Al-Hissan Clinic"
+    },
+    {
+        "state":"Taraba",
+        "lga":"Ardo-kola",
+        "facility_name":"Alingora Primary Health Centre"
+    },
+    {
+        "state":"Taraba",
+        "lga":"Ardo-kola",
+        "facility_name":"Ardo Kola Primary Health Care Centre"
+    },
+    {
+        "state":"Taraba",
+        "lga":"Ardo-kola",
+        "facility_name":"Ardo-Kola College of Agric Health Clinic"
+    },
+    {
+        "state":"Taraba",
+        "lga":"Ardo-kola",
+        "facility_name":"Ardokola Primary Health Centre"
+    },
+    {
+        "state":"Taraba",
+        "lga":"Ardo-kola",
+        "facility_name":"Babuga Health Post, Zangonkombi Ward"
+    },
+    {
+        "state":"Taraba",
+        "lga":"Ardo-kola",
+        "facility_name":"Bakin Duste MDG Clinic"
+    },
+    {
+        "state":"Taraba",
+        "lga":"Ardo-kola",
+        "facility_name":"Bakin Dutse Primary Healthc Clinic"
+    },
+    {
+        "state":"Yobe",
+        "lga":"Bade",
+        "facility_name":"Ayaji Medical And Diagnostic Center"
+    },
+    {
+        "state":"Yobe",
+        "lga":"Bade",
+        "facility_name":"Azam Kura Primary Health Clinic"
+    },
+    {
+        "state":"Yobe",
+        "lga":"Bade",
+        "facility_name":"Azbak Primary Health Clinic"
+    },
+    {
+        "state":"Yobe",
+        "lga":"Bade",
+        "facility_name":"Babuje Primary Health Care Centre"
+    },
+    {
+        "state":"Yobe",
+        "lga":"Bade",
+        "facility_name":"Bade Clinic"
+    },
+    {
+        "state":"Yobe",
+        "lga":"Bade",
+        "facility_name":"Bizi    Primary Health Clinic"
+    },
+    {
+        "state":"Yobe",
+        "lga":"Bade",
+        "facility_name":"Dagona Primary Health Centre"
+    },
+    {
+        "state":"Yobe",
+        "lga":"Bade",
+        "facility_name":"Dalah Health Centre"
+    },
+    {
+        "state":"Zamfara",
+        "lga":"Anka",
+        "facility_name":"Abare Primary Health Clinic"
+    },
+    {
+        "state":"Zamfara",
+        "lga":"Anka",
+        "facility_name":"Anka General Hospital"
+    },
+    {
+        "state":"Zamfara",
+        "lga":"Anka",
+        "facility_name":"Anka Orphans And Less Previlaged Clinic"
+    },
+    {
+        "state":"Zamfara",
+        "lga":"Anka",
+        "facility_name":"Anka Psychiatric Hospital"
+    },
+    {
+        "state":"Zamfara",
+        "lga":"Anka",
+        "facility_name":"Anka Women and Child Welfare Primary Health Clinic"
+    },
+    {
+        "state":"Zamfara",
+        "lga":"Anka",
+        "facility_name":"Bagega Primary Health Centre"
+    },
+    {
+        "state":"Zamfara",
+        "lga":"Anka",
+        "facility_name":"Barayar Zaki Primary Health Centre"
+    },
+    {
+        "state":"Zamfara",
+        "lga":"Anka",
+        "facility_name":"Bardi Primary Health Clinic"
+    }
+]

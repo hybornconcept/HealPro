@@ -1,0 +1,47 @@
+# ──────────────────────────────────────────
+# HealPro Monorepo — Root .gitignore
+# ──────────────────────────────────────────
+
+# Dependencies
+**/node_modules/
+
+# Environment variables
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build outputs
+**/dist/
+**/build/
+**/.svelte-kit/
+**/coverage/
+**/.wrangler/
+
+# OS / Editor
+.DS_Store
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Temp files
+*.tmp
+*~
+
+# Large binary leftovers / docs not needed in repo
+*.docx
+*.pdf
+*.tmp
+~$*
+
+# Frontend nested git (we manage from root)
+Frontend/.git/
+Backend/.git/

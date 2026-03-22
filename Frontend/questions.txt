@@ -1,0 +1,6 @@
+please the facilities i need us to know that only preloaded facilities are what users will be interactin with
+
+do we need OTP for login
+
+
+also can we really make users submit claims and still cant see the amount

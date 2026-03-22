@@ -1,0 +1,1234 @@
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\api.ts
+   18:12  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   29:40  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   36:40  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   50:50  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   51:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   57:52  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   64:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  105:58  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  106:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\About.svelte
+  3:11  error  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ColumnCharts.svelte
+  133:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\FacilityDashboard.svelte
+  10:3  error  'Clock' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\FeatureGrid.svelte
+  87:5  error  `{@html}` can lead to XSS attack  svelte/no-at-html-tags
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\Hero.svelte
+  174:35  error  `{@html}` can lead to XSS attack  svelte/no-at-html-tags
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\Information.svelte
+   4:11  error  'Badge' is defined but never used  @typescript-eslint/no-unused-vars
+  63:25  error  '_' is defined but never used      @typescript-eslint/no-unused-vars
+  63:28  error  'i' is defined but never used      @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\InsightBarChart.svelte
+  11:18  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  16:16  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\InteractiveAreaChart.svelte
+  133:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\LoadingSpinner.svelte
+  5:49  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\LoginDialog.svelte
+  63:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\Metrics.svelte
+   44:32  error  Unexpected any. Specify a different type   @typescript-eslint/no-explicit-any
+   95:11  error  'dashboardCard' is defined but never used  @typescript-eslint/no-unused-vars
+   95:31  error  Unexpected any. Specify a different type   @typescript-eslint/no-explicit-any
+  134:34  error  Unexpected any. Specify a different type   @typescript-eslint/no-explicit-any
+  209:29  error  '_' is defined but never used              @typescript-eslint/no-unused-vars
+  347:27  error  'id' is not defined                        no-undef
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\NavigationSidebar.svelte
+  16:3  error  'brandName' is assigned a value but never used                                                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  18:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\NewHMO.svelte
+  56:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\NewProvider.svelte
+  66:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  77:8   error  'browser' is not defined                  no-undef
+  95:38  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\NewUser.svelte
+  67:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\PayableDonutChart.svelte
+  25:3  error  'title' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  26:3  error  'subtitle' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\SlideButton.svelte
+  24:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\StatsCard.svelte
+  16:24  error  This reference only captures the initial value of `stats`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  22:44  error  'val' is defined but never used                                                                                                                                                            @typescript-eslint/no-unused-vars
+  30:36  error  This reference only captures the initial value of `stats`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\Testimonials.svelte
+   73:11  error  'handleImageError' is defined but never used  @typescript-eslint/no-unused-vars
+  187:28  error  '_' is defined but never used                 @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\heroheader.svelte
+  15:6  error  'menuState' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\avatar\avatar-fallback.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\avatar\avatar-image.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\avatar\avatar.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\badge\badge.svelte
+  35:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\breadcrumb\breadcrumb-ellipsis.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\breadcrumb\breadcrumb-item.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\breadcrumb\breadcrumb-link.svelte
+  12:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\breadcrumb\breadcrumb-list.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\breadcrumb\breadcrumb-page.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\breadcrumb\breadcrumb-separator.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\breadcrumb\breadcrumb.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\button-group\button-group-separator.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\button-group\button-group-text.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\button-group\button-group.svelte
+  31:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\button\button.svelte
+  54:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-cell.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-day.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-grid-body.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-grid-head.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-grid-row.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-grid.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-head-cell.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-header.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-heading.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-month-select.svelte
+  11:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-month.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-months.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-nav.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-next-button.svelte
+  12:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-prev-button.svelte
+  12:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar-year-select.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\calendar\calendar.svelte
+  24:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\card\card-action.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\card\card-content.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\card\card-description.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\card\card-footer.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\card\card-header.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\card\card-title.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\card\card.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\chart\chart-container.svelte
+  15:3   error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+  20:27  error  This reference only captures the initial value of `id`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)                                                                                                                                                                svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\chart\chart-tooltip.svelte
+   9:40  error  '_payload' is defined but never used                                                                                                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+  26:3   error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\checkbox\checkbox.svelte
+  12:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\collapsible\collapsible-content.svelte
+  4:31  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\collapsible\collapsible-trigger.svelte
+  4:31  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\collapsible\collapsible.svelte
+  7:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\data-table\flex-render.svelte
+   9:13  error  'TContext' is not defined  no-undef
+   9:44  error  'TData' is not defined     no-undef
+   9:51  error  'TValue' is not defined    no-undef
+  10:38  error  'TData' is not defined     no-undef
+  10:45  error  'TValue' is not defined    no-undef
+  11:6   error  'TContext' is not defined  no-undef
+  11:35  error  'TData' is not defined     no-undef
+  11:42  error  'TValue' is not defined    no-undef
+  12:37  error  'TData' is not defined     no-undef
+  12:44  error  'TValue' is not defined    no-undef
+  15:12  error  'TContext' is not defined  no-undef
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dialog\dialog-close.svelte
+  4:31  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dialog\dialog-content.svelte
+  14:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dialog\dialog-description.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dialog\dialog-footer.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dialog\dialog-header.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dialog\dialog-overlay.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dialog\dialog-title.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dialog\dialog-trigger.svelte
+  4:31  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dropdown-menu\dropdown-menu-checkbox-item.svelte
+  14:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dropdown-menu\dropdown-menu-content.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dropdown-menu\dropdown-menu-group-heading.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dropdown-menu\dropdown-menu-group.svelte
+  4:31  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dropdown-menu\dropdown-menu-item.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dropdown-menu\dropdown-menu-label.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dropdown-menu\dropdown-menu-radio-group.svelte
+  7:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dropdown-menu\dropdown-menu-radio-item.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dropdown-menu\dropdown-menu-separator.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dropdown-menu\dropdown-menu-shortcut.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dropdown-menu\dropdown-menu-sub-content.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dropdown-menu\dropdown-menu-sub-trigger.svelte
+  11:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\dropdown-menu\dropdown-menu-trigger.svelte
+  4:31  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\form\form-button.svelte
+  4:31  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\form\form-description.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\form\form-element-field.svelte
+   3:16  error  'FormPathLeaves' is defined but never used                                                                                                                                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+  13:3   error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+  15:35  error  'T' is not defined                                                                                                                                                                                                                                                                                                                                    no-undef
+  15:38  error  'U' is not defined                                                                                                                                                                                                                                                                                                                                    no-undef
+  21:76  error  'T' is not defined                                                                                                                                                                                                                                                                                                                                    no-undef
+  21:78  error  'U' is not defined                                                                                                                                                                                                                                                                                                                                    no-undef
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\form\form-field-errors.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\form\form-field.svelte
+   3:16  error  'FormPath' is defined but never used                                                                                                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+  13:3   error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+  14:30  error  'T' is not defined                                                                                                                                                                                                                                                                                                                                    no-undef
+  14:33  error  'U' is not defined                                                                                                                                                                                                                                                                                                                                    no-undef
+  26:76  error  'T' is not defined                                                                                                                                                                                                                                                                                                                                    no-undef
+  26:78  error  'U' is not defined                                                                                                                                                                                                                                                                                                                                    no-undef
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\form\form-fieldset.svelte
+   3:16  error  'FormPath' is defined but never used                                                                                                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+  11:3   error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+  12:46  error  'T' is not defined                                                                                                                                                                                                                                                                                                                                    no-undef
+  12:49  error  'U' is not defined                                                                                                                                                                                                                                                                                                                                    no-undef
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\form\form-label.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\form\form-legend.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\input\input.svelte
+  18:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\label\label.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\menubar\menubar-checkbox-item.svelte
+  14:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\menubar\menubar-content.svelte
+  13:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\menubar\menubar-group-heading.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\menubar\menubar-group.svelte
+  6:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\menubar\menubar-item.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\menubar\menubar-label.svelte
+  11:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\menubar\menubar-radio-item.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\menubar\menubar-separator.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\menubar\menubar-shortcut.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\menubar\menubar-sub-content.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\menubar\menubar-sub-trigger.svelte
+  11:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\menubar\menubar-trigger.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\menubar\menubar.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\pagination\pagination-content.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\pagination\pagination-ellipsis.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\pagination\pagination-item.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\pagination\pagination-link.svelte
+  13:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\pagination\pagination-next-button.svelte
+  11:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\pagination\pagination-prev-button.svelte
+  11:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\pagination\pagination.svelte
+  13:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\popover\popover-content.svelte
+  11:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\popover\popover-trigger.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\progress\progress.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\radio-group\radio-group-item.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\radio-group\radio-group.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-cell.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-day.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-grid-row.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-grid.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-head-cell.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-header.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-heading.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-month-select.svelte
+  11:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-month.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-months.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-nav.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-next-button.svelte
+  12:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-prev-button.svelte
+  12:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar-year-select.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\range-calendar\range-calendar.svelte
+  24:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\scroll-area\scroll-area-scrollbar.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\scroll-area\scroll-area.svelte
+  14:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\select\select-content.svelte
+  14:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\select\select-group-heading.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\select\select-group.svelte
+  4:31  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\select\select-item.svelte
+  12:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\select\select-label.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\select\select-scroll-down-button.svelte
+   4:20  error  'WithoutChild' is defined but never used                                                                                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+   9:3   error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+  10:5   error  'WithoutChildrenOrChild' is not defined                                                                                                                                                                                                                                                                                                               no-undef
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\select\select-scroll-up-button.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\select\select-separator.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\select\select-trigger.svelte
+  11:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\select\select-value.svelte
+  4:62  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\separator\separator.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sheet\sheet-close.svelte
+  4:31  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sheet\sheet-content.svelte
+  34:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sheet\sheet-description.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sheet\sheet-footer.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sheet\sheet-header.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sheet\sheet-overlay.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sheet\sheet-title.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sheet\sheet-trigger.svelte
+  4:31  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-content.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-footer.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-group-action.svelte
+  11:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-group-content.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-group-label.svelte
+  11:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-group.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-header.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-input.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-inset.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-menu-action.svelte
+  12:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-menu-badge.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-menu-button.svelte
+  29:41  error  'WithoutChildrenOrChild' is defined but never used                                                                                                                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+  31:16  error  'ComponentProps' is defined but never used                                                                                                                                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+  42:3   error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-menu-item.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-menu-skeleton.svelte
+  11:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-menu-sub-button.svelte
+  13:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-menu-sub-item.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-menu-sub.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-menu.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-provider.svelte
+  19:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-rail.svelte
+  10:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-separator.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar-trigger.svelte
+  12:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sidebar\sidebar.svelte
+  15:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\skeleton\skeleton.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\slider\slider.svelte
+  21:3  error  'thayzeGetRatingText' is assigned a value but never used                                                                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  23:3  error  'type' is assigned a value but never used                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+  24:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\sonner\sonner.svelte
+  2:51  error  'SonnerProps' is defined but never used                                                                                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+  5:8   error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\spinner\spinner.svelte
+  6:26  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\switch\switch.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\table\table-body.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\table\table-caption.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\table\table-cell.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\table\table-footer.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\table\table-head.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\table\table-header.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\table\table-row.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\table\table.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\tabs\tabs-content.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\tabs\tabs-list.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\tabs\tabs-trigger.svelte
+  8:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\tabs\tabs.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\textarea\textarea.svelte
+  9:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\time-range-picker\TimeRangePicker.svelte
+  4:11  error  'Clock' is defined but never used       @typescript-eslint/no-unused-vars
+  4:18  error  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\tooltip\tooltip-content.svelte
+  12:3  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\components\ui\tooltip\tooltip-trigger.svelte
+  4:31  error  Using a rest element or a non-destructured declaration with `$props()` means that Svelte can't infer what properties to expose when creating a custom element. Consider destructuring all the props or explicitly specifying the `customElement.props` option.
+https://svelte.dev/e/custom_element_props_identifier(custom_element_props_identifier)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\config\navigation.ts
+  27:29  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  47:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\index.ts
+  2:15  error  'ChartConfig' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\utils\facility-form.svelte.ts
+    1:20  error  'login' is defined but never used         @typescript-eslint/no-unused-vars
+  193:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\utils\hmo-form.svelte.ts
+  130:26  error  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  132:26  error  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  134:26  error  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  167:10  error  'hmoRes' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  181:19  error  Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\utils\user-dashboard.svelte.ts
+   69:23  error  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+   79:16  error  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+   80:9   error  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+   82:20  error  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+   88:9   error  Unexpected aliasing of 'this' to local variable  @typescript-eslint/no-this-alias
+  153:26  error  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+  161:32  error  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+  167:32  error  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+  257:25  error  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\lib\utils\user-form.svelte.ts
+  190:27  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  208:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\+layout.svelte
+  5:27  error  'Activity' is defined but never used     @typescript-eslint/no-unused-vars
+  5:37  error  'Search' is defined but never used       @typescript-eslint/no-unused-vars
+  5:45  error  'ChevronDown' is defined but never used  @typescript-eslint/no-unused-vars
+  6:11  error  'Input' is defined but never used        @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\facility\+page.svelte
+    5:14  error  'Popover' is defined but never used                                                                                                                                                       @typescript-eslint/no-unused-vars
+   11:11  error  'Slider' is defined but never used                                                                                                                                                        @typescript-eslint/no-unused-vars
+   25:3   error  'RefreshCw' is defined but never used                                                                                                                                                     @typescript-eslint/no-unused-vars
+   26:3   error  'Star' is defined but never used                                                                                                                                                          @typescript-eslint/no-unused-vars
+   35:3   error  'Phone' is defined but never used                                                                                                                                                         @typescript-eslint/no-unused-vars
+   36:3   error  'Mail' is defined but never used                                                                                                                                                          @typescript-eslint/no-unused-vars
+   39:3   error  'ExternalLink' is defined but never used                                                                                                                                                  @typescript-eslint/no-unused-vars
+   42:3   error  'CreditCard' is defined but never used                                                                                                                                                    @typescript-eslint/no-unused-vars
+   43:3   error  'X' is defined but never used                                                                                                                                                             @typescript-eslint/no-unused-vars
+   44:3   error  'Check' is defined but never used                                                                                                                                                         @typescript-eslint/no-unused-vars
+   45:3   error  'CalendarDays' is defined but never used                                                                                                                                                  @typescript-eslint/no-unused-vars
+   65:19  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  132:24  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  133:28  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  134:8   error  'baseRatingMetrics' is assigned a value but never used                                                                                                                                    @typescript-eslint/no-unused-vars
+  134:28  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  135:25  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  136:21  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  137:22  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  138:19  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  139:21  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\facility\analytics\+page.svelte
+   9:35  error  'ChevronDown' is defined but never used                                                                                                                                                   @typescript-eslint/no-unused-vars
+  17:3   error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\facility\appointments\+page.svelte
+  13:3   error  'TriangleAlert' is defined but never used                                                                                                                                                 @typescript-eslint/no-unused-vars
+  18:3   error  'Lightbulb' is defined but never used                                                                                                                                                     @typescript-eslint/no-unused-vars
+  24:16  error  'DateValue' is defined but never used                                                                                                                                                     @typescript-eslint/no-unused-vars
+  28:28  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\facility\clinic\+page.svelte
+   13:3   error  'Save' is defined but never used                       @typescript-eslint/no-unused-vars
+   14:3   error  'Upload' is defined but never used                     @typescript-eslint/no-unused-vars
+   18:3   error  'Check' is defined but never used                      @typescript-eslint/no-unused-vars
+   26:14  error  'Card' is defined but never used                       @typescript-eslint/no-unused-vars
+   30:8   error  'data' is assigned a value but never used              @typescript-eslint/no-unused-vars
+   54:6   error  'respiratoryRate' is assigned a value but never used   @typescript-eslint/no-unused-vars
+   55:6   error  'oxygenSaturation' is assigned a value but never used  @typescript-eslint/no-unused-vars
+   94:11  error  'addIcdCode' is defined but never used                 @typescript-eslint/no-unused-vars
+  110:11  error  'handleFileUpload' is defined but never used           @typescript-eslint/no-unused-vars
+  117:11  error  'removeAttachment' is defined but never used           @typescript-eslint/no-unused-vars
+  506:36  error  '_' is defined but never used                          @typescript-eslint/no-unused-vars
+  574:39  error  '_' is defined but never used                          @typescript-eslint/no-unused-vars
+  611:37  error  '_' is defined but never used                          @typescript-eslint/no-unused-vars
+  645:33  error  '_' is defined but never used                          @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\facility\invoice\+page.server.ts
+  19:33  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  50:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\facility\invoice\+page.svelte
+    6:14  error  'Select' is defined but never used                                                                                                                                                        @typescript-eslint/no-unused-vars
+   22:18  error  'fly' is defined but never used                                                                                                                                                           @typescript-eslint/no-unused-vars
+   39:6   error  'states' is assigned a value but never used                                                                                                                                               @typescript-eslint/no-unused-vars
+   39:22  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+   40:26  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+   41:30  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+   42:6   error  'defaultItems' is assigned a value but never used                                                                                                                                         @typescript-eslint/no-unused-vars
+   42:28  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+   43:29  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+   44:27  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+   45:23  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+   56:31  error  'Facility' is not defined                                                                                                                                                                 no-undef
+  101:33  error  Unexpected any. Specify a different type                                                                                                                                                  @typescript-eslint/no-explicit-any
+  119:47  error  'Facility' is not defined                                                                                                                                                                 no-undef
+  138:34  error  Unexpected any. Specify a different type                                                                                                                                                  @typescript-eslint/no-explicit-any
+  273:19  error  Unexpected any. Specify a different type                                                                                                                                                  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\facility\message\+page.svelte
+  13:8  error  'data' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\facility\records\+page.svelte
+   7:14  error  'Card' is defined but never used                                                                                                                                                          @typescript-eslint/no-unused-vars
+  17:3   error  'Activity' is defined but never used                                                                                                                                                      @typescript-eslint/no-unused-vars
+  20:3   error  'Share2' is defined but never used                                                                                                                                                        @typescript-eslint/no-unused-vars
+  21:3   error  'Printer' is defined but never used                                                                                                                                                       @typescript-eslint/no-unused-vars
+  22:3   error  'Edit' is defined but never used                                                                                                                                                          @typescript-eslint/no-unused-vars
+  23:3   error  'Plus' is defined but never used                                                                                                                                                          @typescript-eslint/no-unused-vars
+  25:3   error  'MapPin' is defined but never used                                                                                                                                                        @typescript-eslint/no-unused-vars
+  26:3   error  'Phone' is defined but never used                                                                                                                                                         @typescript-eslint/no-unused-vars
+  27:3   error  'Mail' is defined but never used                                                                                                                                                          @typescript-eslint/no-unused-vars
+  29:3   error  'Filter' is defined but never used                                                                                                                                                        @typescript-eslint/no-unused-vars
+  30:3   error  'MoreHorizontal' is defined but never used                                                                                                                                                @typescript-eslint/no-unused-vars
+  32:3   error  'Eye' is defined but never used                                                                                                                                                           @typescript-eslint/no-unused-vars
+  35:17  error  'slide' is defined but never used                                                                                                                                                         @typescript-eslint/no-unused-vars
+  35:24  error  'fly' is defined but never used                                                                                                                                                           @typescript-eslint/no-unused-vars
+  40:24  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  43:33  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  71:8   error  'filters' is assigned a value but never used                                                                                                                                              @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\hmo\+page.svelte
+    6:11  error  'Button' is defined but never used                                                                                                                                                        @typescript-eslint/no-unused-vars
+   20:30  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  119:11  error  'submitAction' is defined but never used                                                                                                                                                  @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\hmo\claims\+page.svelte
+   14:9   error  'PieChartComponent' is defined but never used       @typescript-eslint/no-unused-vars
+   19:11  error  'buttonVariants' is defined but never used          @typescript-eslint/no-unused-vars
+   20:11  error  'Label' is defined but never used                   @typescript-eslint/no-unused-vars
+   21:14  error  'Collapsible' is defined but never used             @typescript-eslint/no-unused-vars
+   25:3   error  'Filter' is defined but never used                  @typescript-eslint/no-unused-vars
+   26:3   error  'MoreHorizontal' is defined but never used          @typescript-eslint/no-unused-vars
+   30:3   error  'Clock' is defined but never used                   @typescript-eslint/no-unused-vars
+   31:3   error  'AlertCircle' is defined but never used             @typescript-eslint/no-unused-vars
+   32:3   error  'ChevronLeft' is defined but never used             @typescript-eslint/no-unused-vars
+   33:3   error  'ChevronRight' is defined but never used            @typescript-eslint/no-unused-vars
+   34:3   error  'ArrowUpDown' is defined but never used             @typescript-eslint/no-unused-vars
+   35:3   error  'ArrowRight' is defined but never used              @typescript-eslint/no-unused-vars
+   37:3   error  'CreditCard' is defined but never used              @typescript-eslint/no-unused-vars
+   38:3   error  'Mail' is defined but never used                    @typescript-eslint/no-unused-vars
+   41:3   error  'Building' is defined but never used                @typescript-eslint/no-unused-vars
+   44:3   error  'Hourglass' is defined but never used               @typescript-eslint/no-unused-vars
+   50:3   error  'today' is defined but never used                   @typescript-eslint/no-unused-vars
+   55:11  error  'slide' is defined but never used                   @typescript-eslint/no-unused-vars
+   56:11  error  'quintOut' is defined but never used                @typescript-eslint/no-unused-vars
+  131:6   error  'insuranceOpen' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  132:6   error  'policyOpen' is assigned a value but never used     @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\hmo\clients\+page.svelte
+   24:9   error  'MapPin' is defined but never used                                                                                                                                                        @typescript-eslint/no-unused-vars
+   42:40  error  Unexpected any. Specify a different type                                                                                                                                                  @typescript-eslint/no-explicit-any
+   46:32  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  193:8   error  'companyColors' is assigned a value but never used                                                                                                                                        @typescript-eslint/no-unused-vars
+  356:25  error  Unexpected any. Specify a different type                                                                                                                                                  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\hmo\dashboard\+page.svelte
+    2:11  error  'Area' is defined but never used                                                                                                                                                          @typescript-eslint/no-unused-vars
+    3:16  error  'PageData' is defined but never used                                                                                                                                                      @typescript-eslint/no-unused-vars
+    6:11  error  'Avatar' is defined but never used                                                                                                                                                        @typescript-eslint/no-unused-vars
+    6:19  error  'AvatarFallback' is defined but never used                                                                                                                                                @typescript-eslint/no-unused-vars
+    6:35  error  'AvatarImage' is defined but never used                                                                                                                                                   @typescript-eslint/no-unused-vars
+   27:3   error  'TrendingDown' is defined but never used                                                                                                                                                  @typescript-eslint/no-unused-vars
+   39:73  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  199:10  error  `<svelte:component>` is deprecated in runes mode — components are dynamic by default
+https://svelte.dev/e/svelte_component_deprecated(svelte_component_deprecated)                        svelte/valid-compile
+  236:10  error  `<svelte:component>` is deprecated in runes mode — components are dynamic by default
+https://svelte.dev/e/svelte_component_deprecated(svelte_component_deprecated)                        svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\hmo\facility\+page.svelte
+   80:34  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  155:29  error  '_' is defined but never used             @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\hmo\insight\+page.svelte
+   15:3   error  'Crosshair' is defined but never used     @typescript-eslint/no-unused-vars
+   16:3   error  'TrendingUp' is defined but never used    @typescript-eslint/no-unused-vars
+   19:3   error  'DollarSign' is defined but never used    @typescript-eslint/no-unused-vars
+   24:11  error  'scaleBand' is defined but never used     @typescript-eslint/no-unused-vars
+   24:22  error  'scaleLinear' is defined but never used   @typescript-eslint/no-unused-vars
+   34:9   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   36:11  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  112:11  error  'centerMap' is defined but never used     @typescript-eslint/no-unused-vars
+  118:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\hmo\invoice\$types.d.ts
+  3:20  error  The `{}` ("empty object") type allows any non-nullish value, including literals like `0` and `""`.
+- If that's what you want, disable this lint rule with an inline comment or configure the 'allowObjectTypes' rule option.
+- If you want a type meaning "any object", you probably want `object` instead.
+- If you want a type meaning "any value", you probably want `unknown` instead  @typescript-eslint/no-empty-object-type
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\hmo\invoice\+page.svelte
+  39:36  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  52:11  error  'getStatusColor' is defined but never used                                                                                                                                                @typescript-eslint/no-unused-vars
+  52:26  error  '_status' is defined but never used                                                                                                                                                       @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\hmo\profile\+page.svelte
+  28:3  error  'FileText' is defined but never used        @typescript-eslint/no-unused-vars
+  29:3  error  'MoreHorizontal' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\hmo\providers\+page.svelte
+   13:3   error  'Share2' is defined but never used                                                                                                                                                        @typescript-eslint/no-unused-vars
+   15:3   error  'Plus' is defined but never used                                                                                                                                                          @typescript-eslint/no-unused-vars
+   19:3   error  'ArrowRight' is defined but never used                                                                                                                                                    @typescript-eslint/no-unused-vars
+   20:3   error  'LayoutGrid' is defined but never used                                                                                                                                                    @typescript-eslint/no-unused-vars
+   25:3   error  'Users' is defined but never used                                                                                                                                                         @typescript-eslint/no-unused-vars
+   26:3   error  'Stethoscope' is defined but never used                                                                                                                                                   @typescript-eslint/no-unused-vars
+   33:8   error  'getScoreColor' is assigned a value but never used                                                                                                                                        @typescript-eslint/no-unused-vars
+   39:8   error  'getScoreRingColor' is assigned a value but never used                                                                                                                                    @typescript-eslint/no-unused-vars
+   80:3   error  'concentrationData' is assigned a value but never used                                                                                                                                    @typescript-eslint/no-unused-vars
+   87:6   error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+   92:8   error  'deltaColor' is assigned a value but never used                                                                                                                                           @typescript-eslint/no-unused-vars
+  765:33  error  '_' is defined but never used                                                                                                                                                             @typescript-eslint/no-unused-vars
+  793:34  error  '_' is defined but never used                                                                                                                                                             @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\hmo\reports\+page.svelte
+    5:14  error  'Select' is defined but never used                     @typescript-eslint/no-unused-vars
+    8:19  error  'User' is defined but never used                       @typescript-eslint/no-unused-vars
+  118:8   error  'filteredProducts' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\hmo\use\+page.svelte
+    6:3   error  'Users' is defined but never used                                                                                                                                                         @typescript-eslint/no-unused-vars
+   48:11  error  'Separator' is defined but never used                                                                                                                                                     @typescript-eslint/no-unused-vars
+   53:3   error  'renderComponent' is defined but never used                                                                                                                                               @typescript-eslint/no-unused-vars
+   60:45  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  218:14  error  Unexpected any. Specify a different type                                                                                                                                                  @typescript-eslint/no-explicit-any
+  559:28  error  '_' is defined but never used                                                                                                                                                             @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\user\+page.server.ts
+   68:26  error  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+   69:25  error  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+   70:27  error  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+   79:20  error  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  140:16  error  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  143:9   error  'isPrincipal' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  181:21  error  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\user\+page.svelte
+   3:49  error  'Send' is defined but never used                                                                                                                                                          @typescript-eslint/no-unused-vars
+  10:9   error  'SlideButton' is defined but never used                                                                                                                                                   @typescript-eslint/no-unused-vars
+  19:3   error  'getCoveragePercentage' is defined but never used                                                                                                                                         @typescript-eslint/no-unused-vars
+  27:48  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\user\appointments\+page.server.ts
+  10:11  error  'error' is defined but never used         @typescript-eslint/no-unused-vars
+  24:36  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\user\appointments\+page.svelte
+   27:3   error  'isAuthenticated' is assigned a value but never used                                                                                                                                      @typescript-eslint/no-unused-vars
+   32:6   error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  139:19  error  Unexpected any. Specify a different type                                                                                                                                                  @typescript-eslint/no-explicit-any
+  310:4   error  'Button' is not defined                                                                                                                                                                   no-undef
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\user\claimsMgt\+page.svelte
+   17:14  error  'Card' is defined but never used          @typescript-eslint/no-unused-vars
+   20:14  error  'Pagination' is defined but never used    @typescript-eslint/no-unused-vars
+   21:14  error  'Select' is defined but never used        @typescript-eslint/no-unused-vars
+   22:11  error  'Separator' is defined but never used     @typescript-eslint/no-unused-vars
+   26:14  error  'DropdownMenu' is defined but never used  @typescript-eslint/no-unused-vars
+   71:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  241:23  error  'id' is defined but never used            @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\user\claims\+page.server.ts
+  19:33  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  50:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\user\claims\+page.svelte
+    7:11  error  'Badge' is defined but never used                                                                                                                                                         @typescript-eslint/no-unused-vars
+   12:31  error  'DateValue' is defined but never used                                                                                                                                                     @typescript-eslint/no-unused-vars
+   31:22  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+   32:6   error  'facilities' is assigned a value but never used                                                                                                                                           @typescript-eslint/no-unused-vars
+   32:26  error  This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+   34:31  error  'Facility' is not defined                                                                                                                                                                 no-undef
+   36:25  error  'defaultItems' is not defined                                                                                                                                                             no-undef
+   54:20  error  'currentFacilities' is not defined                                                                                                                                                        no-undef
+   54:47  error  'Facility' is not defined                                                                                                                                                                 no-undef
+   54:72  error  'selectedFacility' is not defined                                                                                                                                                         no-undef
+   63:7   error  'selectedState' is not defined                                                                                                                                                            no-undef
+   64:4   error  'selectedFacility' is not defined                                                                                                                                                         no-undef
+   69:7   error  'value' is not defined                                                                                                                                                                    no-undef
+   70:4   error  'serviceDate' is not defined                                                                                                                                                              no-undef
+   70:28  error  'value' is not defined                                                                                                                                                                    no-undef
+  114:24  error  'invoiceNumber' is not defined                                                                                                                                                            no-undef
+  125:8   error  'selectedState' is not defined                                                                                                                                                            no-undef
+  125:26  error  'selectedFacility' is not defined                                                                                                                                                         no-undef
+  125:47  error  'currentPatient' is not defined                                                                                                                                                           no-undef
+  146:32  error  'selectedFacility' is not defined                                                                                                                                                         no-undef
+  154:5   error  'invoiceNumber' is not defined                                                                                                                                                            no-undef
+  155:18  error  'value' is not defined                                                                                                                                                                    no-undef
+  156:8   error  'value' is not defined                                                                                                                                                                    no-undef
+  158:16  error  'currentPatient' is not defined                                                                                                                                                           no-undef
+  160:19  error  'currentPatient' is not defined                                                                                                                                                           no-undef
+  188:19  error  Unexpected any. Specify a different type                                                                                                                                                  @typescript-eslint/no-explicit-any
+  233:17  error  'invoiceNumber' is not defined                                                                                                                                                            no-undef
+  234:27  error  'invoiceNumber' is not defined                                                                                                                                                            no-undef
+  246:13  error  'value' is not defined                                                                                                                                                                    no-undef
+  250:12  error  'value' is not defined                                                                                                                                                                    no-undef
+  250:30  error  'value' is not defined                                                                                                                                                                    no-undef
+  253:36  error  'value' is not defined                                                                                                                                                                    no-undef
+  253:66  error  'value' is not defined                                                                                                                                                                    no-undef
+  262:10  error  'currentPatient' is not defined                                                                                                                                                           no-undef
+  272:17  error  'selectedState' is not defined                                                                                                                                                            no-undef
+  273:33  error  'selectedState' is not defined                                                                                                                                                            no-undef
+  276:43  error  'selectedState' is not defined                                                                                                                                                            no-undef
+  296:17  error  'selectedFacility' is not defined                                                                                                                                                         no-undef
+  297:33  error  'selectedFacility' is not defined                                                                                                                                                         no-undef
+  298:21  error  'selectedState' is not defined                                                                                                                                                            no-undef
+  302:13  error  'currentFacilities' is not defined                                                                                                                                                        no-undef
+  302:40  error  'Facility' is not defined                                                                                                                                                                 no-undef
+  302:65  error  'selectedFacility' is not defined                                                                                                                                                         no-undef
+  309:19  error  'currentFacilities' is not defined                                                                                                                                                        no-undef
+  386:51  error  'invoiceNumber' is not defined                                                                                                                                                            no-undef
+  399:50  error  'serviceDate' is not defined                                                                                                                                                              no-undef
+  405:50  error  'dueDate' is not defined                                                                                                                                                                  no-undef
+  423:10  error  'currentPatient' is not defined                                                                                                                                                           no-undef
+  425:53  error  'currentPatient' is not defined                                                                                                                                                           no-undef
+  426:45  error  'currentPatient' is not defined                                                                                                                                                           no-undef
+  427:45  error  'currentPatient' is not defined                                                                                                                                                           no-undef
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\(app)\user\message\+page.svelte
+    7:11  error  'Badge' is defined but never used  @typescript-eslint/no-unused-vars
+  114:11  error  `{@html}` can lead to XSS attack   svelte/no-at-html-tags
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\+layout.server.ts
+  26:11  error  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\appointments\+page.server.ts
+  10:11  error  'error' is defined but never used         @typescript-eslint/no-unused-vars
+  24:36  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\appointments\+page.svelte
+   28:3   error  'isAuthenticated' is assigned a value but never used                                                                                                                                      @typescript-eslint/no-unused-vars
+   33:6   error  This reference only captures the initial value of `data`. Did you mean to reference it inside a closure instead?
+https://svelte.dev/e/state_referenced_locally(state_referenced_locally)  svelte/valid-compile
+  140:19  error  Unexpected any. Specify a different type                                                                                                                                                  @typescript-eslint/no-explicit-any
+  306:5   error  'Button' is not defined                                                                                                                                                                   no-undef
+
+C:\Users\DELL PRECISION 5520\Documents\HEALPRO\Frontend\src\routes\login\+page.server.ts
+  103:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 525 problems (525 errors, 0 warnings)
+

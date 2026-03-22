@@ -1,0 +1,15 @@
+name = "healprofrontend"
+main = ".svelte-kit/cloudflare/_worker.js"
+compatibility_date = "2025-11-29"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".svelte-kit/cloudflare"
+binding = "ASSETS"
+
+[env.production]
+name = "healprofrontend"
+routes = [
+  { pattern = "healpro.org/*", zone_name = "healpro.org" },
+  { pattern = "www.healpro.org/*", zone_name = "healpro.org" }
+]
